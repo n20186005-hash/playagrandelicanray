@@ -17,8 +17,27 @@ const htmlLang = htmlLangAttr(lang);
 const alts = buildAlternates(path);
 const canonical = alts[lang] ?? alts.es;
 const { messages } = getI18n(Astro.url);
+type FaqItem = {
+  q: string;
+  a: string;
+};
 
-const jsonLd = {
+type FaqCategory = {
+  items?: FaqItem[];
+};
+
+const faqEntities = (messages.faq?.categories ?? []).flatMap((category: FaqCategory) =>
+  (category.items ?? []).map((item: FaqItem) => ({
+    '@type': 'Question',
+    'name': item.q,
+    'acceptedAnswer': {
+      '@type': 'Answer',
+      'text': item.a,
+    },
+  })),
+);
+
+const touristAttractionJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'TouristAttraction',
   'name': messages.header.siteName,
@@ -40,6 +59,12 @@ const jsonLd = {
     'https://maps.app.goo.gl/e9zGKMD1ovufKeSS8',
     'https://chile.travel/en/attractions/lican-ray/',
   ],
+};
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  'mainEntity': faqEntities,
 };
 ---
 
@@ -80,7 +105,10 @@ const jsonLd = {
 
     <slot name="head" />
 
-    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(touristAttractionJsonLd)}></script>
+    {faqEntities.length > 0 && (
+      <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)}></script>
+    )}
   </head>
   <body class="min-h-screen">
     <Header />

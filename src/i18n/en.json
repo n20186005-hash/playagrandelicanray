@@ -1,15 +1,16 @@
 {
   "meta": {
-    "title": "Playa Grande Lican-Ray | Licán Ray, Araucanía, Chile",
-    "description": "The complete guide to Playa Grande Lican-Ray: a black volcanic-sand beach on Lake Calafquén, water sports, Mapuche culture, photos, visitor reviews, and how to get there in Chile's La Araucanía Region."
+    "title": "Playa Grande Lican-Ray Guide: Chile's black volcanic beach and Mapuche culture",
+    "description": "A professional Playa Grande Lican-Ray guide covering overview, transport, Essential Guide, cultural history, visual gallery and FAQs for planning a more efficient visit to Chile's La Araucanía Region."
   },
   "header": {
     "siteName": "Playa Grande Lican-Ray",
-    "home": "Home",
-    "visit": "Visit",
+    "home": "Overview",
+    "visit": "Overview",
     "transport": "Getting Here",
-    "history": "History",
-    "gallery": "Gallery",
+    "guide": "Guide",
+    "history": "History & Culture",
+    "gallery": "Visuals",
     "reviews": "Reviews",
     "faq": "FAQ",
     "map": "Map",
@@ -25,7 +26,7 @@
     "rating": "4.6(19,180)",
     "reviewCount": "19,180 reviews",
     "hours": "Open 24 hours",
-    "openMaps": "View on Google Maps",
+    "openMaps": "Get Directions",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
     "tags": ["Free public access", "Family-friendly", "Open 24 hours"],
     "routeCta": {
@@ -426,9 +427,9 @@
     ]
   },
   "practicalGuide": {
-    "eyebrow": "Practical Visitor Guide",
-    "title": "Practical Visitor Guide",
-    "subtitle": "Useful information to plan your stay without promoting any business: where to stay by area, photo spots with coordinates, and beach precautions.",
+    "eyebrow": "Essential Guide",
+    "title": "Essential Guide",
+    "subtitle": "Brings together the best time to visit, where to stay by area, photo spots and beach precautions in one clean planning section.",
     "stay": {
       "title": "Where to stay (by area)",
       "items": [

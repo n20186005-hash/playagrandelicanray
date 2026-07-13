@@ -1,0 +1,100 @@
+---
+import { getI18n } from '../i18n/ui';
+
+const { lang, messages } = getI18n(Astro.url);
+const visitGuide = messages.intro.visitGuide;
+const guide = messages.practicalGuide;
+
+type LangLabel = {
+  sectionTitle: string;
+  sectionSubtitle: string;
+  timingTitle: string;
+};
+
+type PhotoSpot = {
+  name: string;
+  coords: string;
+};
+
+type GuideCard = {
+  title: string;
+  intro: string | null;
+  items: string[];
+};
+
+const labels: Record<string, LangLabel> = {
+  es: {
+    sectionTitle: 'Essential Guide',
+    sectionSubtitle: guide.subtitle,
+    timingTitle: 'Mejor momento',
+  },
+  en: {
+    sectionTitle: 'Essential Guide',
+    sectionSubtitle: guide.subtitle,
+    timingTitle: 'Best Time',
+  },
+  zh: {
+    sectionTitle: '行前必读 (Essential Guide)',
+    sectionSubtitle: guide.subtitle,
+    timingTitle: '最佳时段',
+  },
+  arn: {
+    sectionTitle: 'Essential Guide',
+    sectionSubtitle: guide.subtitle,
+    timingTitle: 'Küme antü',
+  },
+};
+
+const copy = labels[lang] ?? labels.es;
+const cards: GuideCard[] = [
+  {
+    title: copy.timingTitle,
+    intro: visitGuide.description,
+    items: visitGuide.items,
+  },
+  {
+    title: guide.stay.title,
+    intro: null,
+    items: guide.stay.items,
+  },
+  {
+    title: guide.photo.title,
+    intro: guide.photo.note,
+    items: guide.photo.spots.map((spot: PhotoSpot) => `${spot.name}: ${spot.coords}`),
+  },
+  {
+    title: guide.tips.title,
+    intro: null,
+    items: guide.tips.items,
+  },
+];
+---
+
+<section id="essential-guide" class="section-padding" style="background: var(--bg-tertiary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <p class="text-xs uppercase tracking-[0.22em] mb-3" style="color: var(--accent);">{guide.eyebrow}</p>
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-4" style="color: var(--text-primary);">{copy.sectionTitle}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{copy.sectionSubtitle}</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      {cards.map((card) => (
+        <article class="rounded-3xl border p-6 md:p-7 h-full" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <h3 class="font-display text-2xl font-semibold mb-4" style="color: var(--text-primary);">{card.title}</h3>
+          {card.intro && (
+            <p class="text-sm leading-relaxed mb-4" style="color: var(--text-secondary);">{card.intro}</p>
+          )}
+          <ul class="space-y-3 text-sm sm:text-base leading-relaxed" style="color: var(--text-secondary);">
+            {card.items.map((item: string) => (
+              <li class="flex gap-3">
+                <span style="color: var(--accent);">•</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

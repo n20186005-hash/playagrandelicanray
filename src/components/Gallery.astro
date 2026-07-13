@@ -11,10 +11,10 @@ const photoAlts = g.photoAlts ?? images.map(() => g.photoAlt);
     <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{g.title}</h2>
     <p class="text-center text-lg mb-10" style="color: var(--text-secondary);">{g.subtitle}</p>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5" id="gallery-grid">
+    <div class="masonry-grid" id="gallery-grid">
       {images.map((src, index) => (
-        <figure class="gallery-item rounded-2xl border overflow-hidden" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
-          <img src={src} alt={photoAlts[index] ?? g.photoAlt} loading="lazy" class="w-full h-56 object-cover" />
+        <figure class="gallery-item masonry-item rounded-2xl border overflow-hidden break-inside-avoid mb-5" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <img src={src} alt={photoAlts[index] ?? g.photoAlt} loading="lazy" class={`w-full object-cover ${index % 5 === 0 ? 'h-80' : index % 3 === 0 ? 'h-72' : 'h-56'}`} />
           <figcaption class="px-4 py-3 text-sm leading-relaxed" style="color: var(--text-secondary);">
             {photoAlts[index] ?? g.photoAlt}
           </figcaption>

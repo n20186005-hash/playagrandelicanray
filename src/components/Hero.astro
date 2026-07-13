@@ -33,15 +33,17 @@ const tags = h.tags ?? [];
          style="background: var(--accent);">
         {h.routeCta.label}
       </a>
-      <a href={h.historyCta.href}
+      <a href={h.mapsUrl}
+         target="_blank"
+         rel="noopener noreferrer"
          class="inline-flex w-full sm:w-auto justify-center px-8 py-3.5 rounded-full font-semibold border text-white hover:bg-white/10 transition"
          style="border-color: rgba(255,255,255,0.28);">
-        {h.historyCta.label}
+        {h.openMaps}
       </a>
     </div>
     <div class="mt-5">
-      <a href={h.mapsUrl} target="_blank" rel="noopener noreferrer" class="text-sm text-white/80 hover:text-white transition">
-        {h.openMaps}
+      <a href={h.historyCta.href} class="text-sm text-white/80 hover:text-white transition">
+        {h.historyCta.label}
       </a>
     </div>
   </div>

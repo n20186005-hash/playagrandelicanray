@@ -1,17 +1,18 @@
 {
   "meta": {
-    "title": "Playa Grande Lican-Ray | 智利阿劳卡尼亚大区 Licán Ray",
-    "description": "Playa Grande Lican-Ray 完整指南：卡拉夫根湖（Lake Calafquén）北岸的火山黑沙滩、水上运动、马普切文化、照片、游客评价，以及如何在智利阿劳卡尼亚大区抵达。"
+    "title": "Playa Grande Lican-Ray 旅游指南：智利火山黑沙滩与马普切文化",
+    "description": "Playa Grande Lican-Ray 专业旅游指南：概览卡拉夫根湖畔火山黑沙滩、交通方式、行前必读、历史文化、影像与常见问题，帮助你高效规划智利阿劳卡尼亚之行。"
   },
   "header": {
     "siteName": "Playa Grande Lican-Ray",
-    "home": "首页",
-    "visit": "导览",
+    "home": "概览",
+    "visit": "概览",
     "transport": "交通",
-    "history": "历史",
-    "gallery": "画廊",
+    "guide": "游览指南",
+    "history": "历史文化",
+    "gallery": "影像",
     "reviews": "评价",
-    "faq": "问答",
+    "faq": "常见问题",
     "map": "地图",
     "backToHome": "返回首页"
   },
@@ -25,7 +26,7 @@
     "rating": "4.6(19,180)",
     "reviewCount": "19,180 条评价",
     "hours": "24 小时开放",
-    "openMaps": "查看 Google 地图位置",
+    "openMaps": "获取路线 (Get Directions)",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
     "tags": ["免费公共开放", "适合家庭出游", "24 小时开放"],
     "routeCta": {
@@ -426,9 +427,9 @@
     ]
   },
   "practicalGuide": {
-    "eyebrow": "实用访问指南",
-    "title": "实用访问指南 (Practical Visitor Guide)",
-    "subtitle": "帮助你规划行程的实用信息，不涉及任何商业推荐：按区域给出住宿建议、带精确坐标的拍摄机位，以及海滩上的注意事项。",
+    "eyebrow": "行前必读",
+    "title": "行前必读 (Essential Guide)",
+    "subtitle": "将最佳时段、住宿建议、拍摄机位和注意事项整合为一处，帮助你快速完成出行规划，而不引入任何商业性推荐。",
     "stay": {
       "title": "住宿区域建议",
       "items": [

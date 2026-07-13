@@ -1,17 +1,18 @@
 {
   "meta": {
-    "title": "Playa Grande Lican-Ray | Licán Ray, Araucanía, Chile",
-    "description": "Guía completa de Playa Grande Lican-Ray: playa de arena volcánica negra junto al lago Calafquén, deportes acuáticos, cultura mapuche, fotos, opiniones y cómo llegar en la Región de La Araucanía, Chile."
+    "title": "Guía de Playa Grande Lican-Ray: arena volcánica negra y cultura mapuche en Chile",
+    "description": "Guía profesional de Playa Grande Lican-Ray con resumen del sitio, transporte, Essential Guide, historia cultural, galería visual y preguntas frecuentes para planificar mejor tu visita a La Araucanía."
   },
   "header": {
     "siteName": "Playa Grande Lican-Ray",
-    "home": "Inicio",
-    "visit": "Visita",
+    "home": "Resumen",
+    "visit": "Resumen",
     "transport": "Cómo llegar",
-    "history": "Historia",
-    "gallery": "Galería",
+    "guide": "Guía",
+    "history": "Historia y cultura",
+    "gallery": "Imágenes",
     "reviews": "Opiniones",
-    "faq": "Preguntas",
+    "faq": "Preguntas frecuentes",
     "map": "Mapa",
     "backToHome": "Volver al inicio"
   },
@@ -25,7 +26,7 @@
     "rating": "4.6(19.180)",
     "reviewCount": "19.180 opiniones",
     "hours": "Abierto las 24 horas",
-    "openMaps": "Ver ubicación en Google Maps",
+    "openMaps": "Cómo llegar",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
     "tags": ["Acceso libre y gratuito", "Ideal para familias", "Abierto 24 horas"],
     "routeCta": {
@@ -426,9 +427,9 @@
     ]
   },
   "practicalGuide": {
-    "eyebrow": "Guía práctica de visitante",
-    "title": "Guía de acceso práctico (Practical Visitor Guide)",
-    "subtitle": "Información útil para planificar tu estadía sin promover comercios: zonas para alojarte, puntos de foto con coordenadas y precauciones en la playa.",
+    "eyebrow": "Essential Guide",
+    "title": "Essential Guide",
+    "subtitle": "Reúne el mejor momento, zonas para alojarte, puntos de foto y precauciones en una sola sección clara para preparar la visita sin ruido comercial.",
     "stay": {
       "title": "Dónde alojarse (por zona)",
       "items": [

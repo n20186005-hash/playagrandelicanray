@@ -1,15 +1,16 @@
 {
   "meta": {
-    "title": "Playa Grande Lican-Ray | Licán Ray, Araucanía, Chile",
-    "description": "Playa Grande Lican-Ray nütram: calafquén lago, kura antü, mapuche newen, ta'anga, chewü nütram, chumküpa Araucanía, Chile."
+    "title": "Playa Grande Lican-Ray nütram: kura antü ka mapuche newen",
+    "description": "Playa Grande Lican-Ray nütram küme: overview, chumküpa, Essential Guide, kuyfi ka mapuche newen, ta'anga ka porandu Araucanía mew."
   },
   "header": {
     "siteName": "Playa Grande Lican-Ray",
-    "home": "Ruka",
-    "visit": "Küpa",
+    "home": "Overview",
+    "visit": "Overview",
     "transport": "Chumküpa",
-    "history": "Kuyfi",
-    "gallery": "Ta'anga aty",
+    "guide": "Guide",
+    "history": "Kuyfi ka newen",
+    "gallery": "Ta'anga",
     "reviews": "Chewü nütram",
     "faq": "Porandu",
     "map": "Mapa",
@@ -25,7 +26,7 @@
     "rating": "4.6 (19.180)",
     "reviewCount": "Chewü nütram 19.180",
     "hours": "Kom antü, 24 hora",
-    "openMaps": "Google Maps tenda echë",
+    "openMaps": "Get Directions",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
     "tags": ["Entrada küme", "Ruka chewü püle", "24 hora"],
     "routeCta": {
@@ -426,9 +427,9 @@
     ]
   },
   "practicalGuide": {
-    "eyebrow": "Küpa reko küme",
-    "title": "Küpa reko (Practical Visitor Guide)",
-    "subtitle": "Küpa marandu küme: ruka tenda, ta'anga coords, kura antü cuidado.",
+    "eyebrow": "Essential Guide",
+    "title": "Essential Guide",
+    "subtitle": "Küpa marandu müle kiñe chedungun mew: küme antü, ruka tenda, ta'anga coords ka kura antü cuidado.",
     "stay": {
       "title": "Ruka tenda (zona)",
       "items": [
