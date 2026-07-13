@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "title": "Playa Grande Lican-Ray | Licán Ray, Araucanía, Chile",
+    "description": "Playa Grande Lican-Ray nütram: calafquén lago, kura antü, mapuche newen, ta'anga, chewü nütram, chumküpa Araucanía, Chile."
+  },
+  "header": {
+    "siteName": "Playa Grande Lican-Ray",
+    "home": "Ruka",
+    "visit": "Küpa",
+    "transport": "Chumküpa",
+    "history": "Kuyfi",
+    "gallery": "Ta'anga aty",
+    "reviews": "Chewü nütram",
+    "faq": "Porandu",
+    "map": "Mapa",
+    "backToHome": "Küpa ruka"
+  },
+  "common": {
+    "changeLanguage": "Dungu müno",
+    "toggleTheme": "Küyen müno"
+  },
+  "hero": {
+    "title": "Playa Grande Lican-Ray",
+    "subtitle": "Kura antü chillka, Calafquén lago wenu, pewma, ko tripay, mapuche newen, Araucanía, Chile.",
+    "rating": "4.6 (19.180)",
+    "reviewCount": "Chewü nütram 19.180",
+    "hours": "Kom antü, 24 hora",
+    "openMaps": "Google Maps tenda echë",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "tags": ["Entrada küme", "Ruka chewü püle", "24 hora"],
+    "routeCta": {
+      "label": "Chumküpa",
+      "href": "#transport"
+    },
+    "historyCta": {
+      "label": "Kuyfi ka newen",
+      "href": "#history"
+    }
+  },
+  "intro": {
+    "title": "Playa Grande Lican-Ray echë",
+    "description": "Playa Grande Lican-Ray chillka calafquén lago wenu, Villarrica komuna, Araucanía. Kura antü, Villarrica volcano rume, lago ko küme, mapuche newen. Playa Grande ka Playa Chica península rume, pewma, Calafquén lago, Andes. Chile wigka newen füta.",
+    "visitGuide": {
+      "title": "Küpa reko",
+      "eyebrow": "Küme plan",
+      "description": "Petüvün ka antü nag, küyen Calafquén füta, ko tripay küme.",
+      "items": [
+        "Petüvün tripaye, lago ko, península ruka, feria artesanal.",
+        "Playa entrada küme, 24 hora.",
+        "Antü, chumpiru, ko; Calafquén ruka antü füta.",
+        "Licán Ray ruka, kafé, cabaña, camping."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Küme",
+      "items": [
+        "Kura antü chillka, Calafquén lago",
+        "Ko küme, kayak, paddle, windsurf",
+        "Península pewma, pewma ruka",
+        "Mapuche newen, feria, dungu"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "Chumküpa Playa Grande Lican-Ray",
+    "subtitle": "Avión ka bus Temuco rume, bus, auto, taxi, bicicleta Calafquén lago.",
+    "overviewTitle": "Echë moñma tripaye",
+    "overviewText": "Kom chewü Temuco avión ka bus, chumküpa Licán Ray. Ruka pichi, lago Calafquén ruka.",
+    "arrivalTitle": "Tripaye mboyve",
+    "arrivalItems": [
+      "Licán Ray Calafquén lago wenu, Villarrica, Temuco 90–110 km.",
+      "Tren ül; rüpü auto, bus, taxi.",
+      "Enero ka Febrero chewü; petüvün tripaye."
+    ],
+    "modes": [
+      {
+        "label": "Avión",
+        "icon": "✈️",
+        "title": "Avión La Araucanía",
+        "description": "ZCO aeropuerto Temuco rume, Santiago bus.",
+        "details": [
+          "Santiago Temuco 1 ora 20 min.",
+          "Aeropuerto Licán Ray 1 ora 40 min – 2 ora.",
+          "Auto rentar, bus Villarrica Licán Ray."
+        ]
+      },
+      {
+        "label": "Transporte público",
+        "icon": "🚌",
+        "title": "Bus füta",
+        "description": "Temuco ka Pucón bus Licán Ray.",
+        "details": [
+          "Bus terminal ruka, playa pichi.",
+          "Villarrica Ruta 5 Sur rume.",
+          "Auto ül ramo, ekonomi."
+        ]
+      },
+      {
+        "label": "Auto",
+        "icon": "🚗",
+        "title": "Auto ruta",
+        "description": "Auto Araucanía lago ruta.",
+        "details": [
+          "Temuco Ruta 5 Sur Villarrica, Licán Ray Calafquén.",
+          "Pucón lago rüpü.",
+          "Estacionamiento ruka ka playa."
+        ]
+      },
+      {
+        "label": "Taxi",
+        "icon": "🚕",
+        "title": "Taxi / Remise",
+        "description": "Villarrica ka aeropuerto taxi remise.",
+        "details": [
+          "Ruka, pichi che, equipaje.",
+          "Bus Villarrica remise lago.",
+          "Precio müten."
+        ]
+      },
+      {
+        "label": "Bicicleta",
+        "icon": "🚶",
+        "title": "Pié / bicicleta",
+        "description": "Ruka playa pichi, pié ka bicicleta.",
+        "details": [
+          "Licán Ray ruka playa pichi.",
+          "Lago rüpü, küyen.",
+          "Península ruka pewma."
+        ]
+      }
+    ],
+    "localTipsTitle": "Chumküpa reko",
+    "localTips": [
+      "Verano petüvün, estacionamiento temprano.",
+      "Tren ül; bus, auto, taxi.",
+      "Villarrica ka Pucón rume küpa."
+    ],
+    "mapsCta": "Mapa ka ruta echë",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "officialManagement": {
+    "title": "Playa Grande nütram",
+    "text": "Playa Grande Licán Ray, Villarrica komuna, Araucanía. Mapuche mongen, ruka, lago ko, kura antü, pewma."
+  },
+  "knowledge": {
+    "title": "Playa Grande kuyfi, newen ka nütram",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Kuyfi ka geología",
+        "content": "Kura antü Villarrica volcano rume, Calafquén lago wenu. Valdivian pewma, Andes."
+      },
+      {
+        "id": "meaning",
+        "title": "¿Iney 'Licán Ray'?",
+        "content": "'Licán Ray' mapudungun, 'flor de piedra'. Mapuche mongen, lago dungu."
+      },
+      {
+        "id": "legend",
+        "title": "Licán Ray nütram",
+        "content": "Licán Ray cacique ñuke, kuyfi nütram lago. Mapuche newen, dungu."
+      },
+      {
+        "id": "significance",
+        "title": "Chile wigka newen",
+        "content": "Playa Grande Araucanía füta. Pucón, Villarrica, lago, mapuche newen."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Ta'anga aty",
+    "subtitle": "Kura antü, Calafquén lago, península pewma, ruka ta'anga.",
+    "photoAlt": "Playa Grande Lican-Ray ka Calafquén lago",
+    "photoAlts": [
+      "Playa Grande kura antü, Calafquén lago",
+      "Lago ko, kura antü",
+      "Península pewma, Playa Grande Playa Chica",
+      "Pewma Calafquén lago, Andes",
+      "Kayak, paddle, Calafquén ko",
+      "Küyen kura antü",
+      "Mapuche feria, ruka",
+      "Kura antü chillka",
+      "Ko tripay",
+      "Península ruka",
+      "Calafquén lago, Andes",
+      "Kafé, cabaña, Licán Ray",
+      "Pesca, lago",
+      "Pichi che, playa",
+      "Valdivian pewma",
+      "Ruka rüpü, playa",
+      "Küyen volcano lago",
+      "Kütral, lago",
+      "Kapü lago",
+      "Mapuche dungu, feria",
+      "Pareja, küyen",
+      "Lago isla, pewma",
+      "Camping, lago",
+      "Andes lago, Playa Grande"
+    ],
+    "viewAll": "Tenda echë Google Maps",
+    "showMore": "Ta'anga füta echë",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "reviews": {
+    "title": "Chewü nütram",
+    "declaration": "Chewü nütram Google Maps (enlace externo).",
+    "featuredTitle": "Pichi nütram küme",
+    "featuredSubtitle": "Epu chewü nütram: kuyfi ka lago mongen.",
+    "moreReviews": "Google Maps echë",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "featured": [
+      {
+        "text": "Chillka kura antü füta, lago küme. Ruka chewü püle kom.",
+        "source": "Camila R., Febrero 2026"
+      },
+      {
+        "text": "Küyen Calafquén füta, península pewma, ta'anga.",
+        "source": "Diego M., Enero 2026"
+      }
+    ],
+    "items": [
+      {
+        "name": "Camila R.",
+        "date": "Febrero 2026",
+        "rating": 5,
+        "text": "Chillka kura antü füta, lago küme. Ruka chewü püle kom."
+      },
+      {
+        "name": "Diego M.",
+        "date": "Enero 2026",
+        "rating": 5,
+        "text": "Küyen Calafquén füta, península pewma, ta'anga. Kom."
+      },
+      {
+        "name": "Francisca L.",
+        "date": "Enero 2026",
+        "rating": 4,
+        "text": "Küme ruka, café cabaña. Febrero chewü, petüvün."
+      },
+      {
+        "name": "Tomás V.",
+        "date": "Diciembre 2025",
+        "rating": 5,
+        "text": "Kura antü, kayak paddle. Mapuche feria küme."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Chumküpa",
+    "subtitle": "Licán Ray, Villarrica komuna, Araucanía, Chile (Calafquén lago wenu)",
+    "openMaps": "Google Maps echë",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "footer": {
+    "siteName": "Playa Grande Lican-Ray",
+    "rights": "© 2026 Playa Grande Lican-Ray — Proyecto independiente ka non-profit. Kom derecho.",
+    "legalLinksTitle": "Privacidad ka dungu reko",
+    "privacy": "Privacidad",
+    "terms": "Dungu reko",
+    "cookies": "Cookie",
+    "officialResourcesTitle": "Oficial ka referencia",
+    "mapsLabel": "Google Maps →",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "officialLinksList": [
+      { "name": "Chile Travel — Lican Ray", "url": "https://chile.travel/en/attractions/lican-ray/" },
+      { "name": "SERNATUR Araucanía", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "Villarrica Municipalidad (Visit Villarrica)", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "Chile es Tuyo", "url": "https://chileestuyo.cl/eventos/conoce-gratis-los-atractivos-turisticos-de-villarrica/" },
+      { "name": "Araucanía GORE (Agorechi)", "url": "https://agorechi.cl/index.php/regiones/gobierno-regional-de-la-araucania/" }
+    ],
+    "disclaimer": "Ko web küme mongen nütram, institución oficial ül."
+  },
+  "privacy": {
+    "title": "Privacidad",
+    "lastUpdated": "Ül püle: Marzo 2026",
+    "sections": [
+      {
+        "heading": "1. Dungu müle",
+        "content": "Ngün möle chewü dungu. Elu dungu formulario ka e-mail, küme kütral."
+      },
+      {
+        "heading": "2. Dungu wel",
+        "content": "Dungu wel küme servicio, mongen ka nütram. Ngün ül chewü dungu winka marketing."
+      },
+      {
+        "heading": "3. Cookie ka seguimiento",
+        "content": "Wel cookie ka tecnología seguimiento. Nde navegador cookie ül."
+      },
+      {
+        "heading": "4. Datos seguridad",
+        "content": "Nde datos seguridad küme. Internet rupi 100% seguro ül."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Dungu reko",
+    "lastUpdated": "Ül püle: Marzo 2026",
+    "sections": [
+      {
+        "heading": "1. Dungu reko wel",
+        "content": "Web echë ka wel, dungu reko. Dungu reko ül, web ül."
+      },
+      {
+        "heading": "2. Web wel",
+        "content": "Web küme mongen dungu. Dungu información general. Nde web küme wel."
+      },
+      {
+        "heading": "3. Propiedad intelectual",
+        "content": "Kom contenido texto, ta'anga, logo dueño web. Uso autorizado ül."
+      },
+      {
+        "heading": "4. Responsabilidad límite",
+        "content": "Ngün ül daño directo, indirecto web rupi información."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie",
+    "description": "Nde cookie küme.",
+    "essential": {
+      "title": "Cookie necesario",
+      "description": "Web funcionamiento necesario.",
+      "badge": "Siempre activo"
+    },
+    "analytics": {
+      "title": "Cookie analítica",
+      "description": "Küpa chewü web nütram."
+    },
+    "marketing": {
+      "title": "Cookie marketing",
+      "description": "Welu chewü web seguimiento."
+    },
+    "save": "Guardar",
+    "saved": "¡Guardado!"
+  },
+  "faq": {
+    "title": "Porandu",
+    "subtitle": "Playa Grande Lican-Ray infrastructure, kuyfi ka küpa marandu.",
+    "amenities": {
+      "title": "Tenda rupi",
+      "items": [
+        { "icon": "🅿️", "label": "Estacionamiento", "value": "Ruka ka playa" },
+        { "icon": "🚻", "label": "Baños", "value": "Ruka, playa" },
+        { "icon": "🔌", "label": "Bencina / Carga", "value": "Villarrica ka Pucón" },
+        { "icon": "♿", "label": "Accesibilidad", "value": "Ruka plano; kura antü" }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "Transporte ka infrastructure",
+        "items": [
+          {
+            "q": "¿Müle estacionamiento? ¿Chum precio?",
+            "a": "Müle. Licán Ray estacionamiento, playa. Gratuito ka pichi. Enero–Febrero chewü, petüvün."
+          },
+          {
+            "q": "¿Müle silla de ruedas ka coche de bebé?",
+            "a": "Ruka plano, playa kura antü silla difícil. Ruka rüpü küme."
+          },
+          {
+            "q": "¿Müle baño ka comida?",
+            "a": "Ruka baño, kafé, marisco, mapuche dungu, playa pichi."
+          }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "Kuyfi ka newen",
+        "items": [
+          {
+            "q": "¿Chum kura antü?",
+            "a": "Villarrica volcano ka kura basáltico, Calafquén lago."
+          },
+          {
+            "q": "¿Iney lago ka península?",
+            "a": "Lago ko, kayak, paddle, windsurf, pesca. Península ruka pewma, isla, lago, Andes."
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Küpa ka entrada",
+        "items": [
+          {
+            "q": "¿Müle entrada pago?",
+            "a": "Ül. Playa Grande entrada küme, 24 hora."
+          },
+          {
+            "q": "¿Chum aravo küpa?",
+            "a": "Petüvün medio día: ko, ruka, península pewma, feria. Villarrica Pucón kom día."
+          },
+          {
+            "q": "¿Müle ára vai?",
+            "a": "Playa aire libre, kom ára. Lluvia viento lago, invierno chewü. Enero–Febrero füta."
+          }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "Tenda cercano",
+        "items": [
+          {
+            "q": "Küpa rire, ¿iney tenda oĩva?",
+            "a": "Playa Chica, Licán Ray, Calafquén lago. Villarrica, Pucón, Coñaripe termas, Huerquehue."
+          }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Araucanía rupi",
+    "attractionsTitle": "Tenda cercano",
+    "toursTitle": "Tour ka actividad",
+    "attractions": [
+      { "name": "Villarrica Volcán", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "Pucón ka Villarrica lago", "url": "https://chile.travel/en/attractions/lican-ray/" },
+      { "name": "Playa Chica Licán Ray", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "Coñaripe termas", "url": "https://chileestuyo.cl/eventos/conoce-gratis-los-atractivos-turisticos-de-villarrica/" },
+      { "name": "Huerquehue parque", "url": "https://www.sernatur.cl/region/la-araucania/" }
+    ],
+    "tours": [
+      { "name": "Kayak Calafquén lago", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "Villarrica volcán", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "Mapuche experiencia", "url": "https://chile.travel/en/attractions/lican-ray/" }
+    ]
+  },
+  "practicalGuide": {
+    "eyebrow": "Küpa reko küme",
+    "title": "Küpa reko (Practical Visitor Guide)",
+    "subtitle": "Küpa marandu küme: ruka tenda, ta'anga coords, kura antü cuidado.",
+    "stay": {
+      "title": "Ruka tenda (zona)",
+      "items": [
+        "Calafquén lago wenu: cabaña ka camping ko rume, kayak ka küyen.",
+        "Licán Ray ruka: kafé, feria mapuche, playa pichi.",
+        "Chile wigka ruka: cabaña ka camping pewma; marca ül müten.",
+        "Enero–Febrero chewü; meses ngen ruka."
+      ]
+    },
+    "photo": {
+      "title": "Ta'anga küme",
+      "intro": "Coords rume pewma:",
+      "spots": [
+        { "name": "Península Licán Ray pewma", "coords": "39.4137° S, 72.0806° W" },
+        { "name": "Playa Grande ruka rüpü", "coords": "39.4105° S, 72.0831° W" },
+        { "name": "Kura antü ka lago azul", "coords": "39.4112° S, 72.0824° W" }
+      ],
+      "note": "Küyen petüvün ka kuyen; lago calma amanecer."
+    },
+    "tips": {
+      "title": "Kura antü cuidado",
+      "items": [
+        "Kura antü antü rume, chumpiru kawe; petu chumpiru.",
+        "Ko seguro ruka rüpü; paddle kayak amanecer.",
+        "Baño ruka ka playa; ruka plano, kura antü silla difícil.",
+        "Antü, chumpiru, ko; Calafquén ruka antü füta."
+      ]
+    }
+  }
+}

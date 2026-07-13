@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "title": "Playa Grande Lican-Ray | Licán Ray, Araucanía, Chile",
+    "description": "The complete guide to Playa Grande Lican-Ray: a black volcanic-sand beach on Lake Calafquén, water sports, Mapuche culture, photos, visitor reviews, and how to get there in Chile's La Araucanía Region."
+  },
+  "header": {
+    "siteName": "Playa Grande Lican-Ray",
+    "home": "Home",
+    "visit": "Visit",
+    "transport": "Getting Here",
+    "history": "History",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "common": {
+    "changeLanguage": "Switch language",
+    "toggleTheme": "Toggle theme"
+  },
+  "hero": {
+    "title": "Playa Grande Lican-Ray",
+    "subtitle": "A black volcanic-sand beach on the north shore of Lake Calafquén, between native forest, water sports and Mapuche culture in Chile's La Araucanía Region.",
+    "rating": "4.6(19,180)",
+    "reviewCount": "19,180 reviews",
+    "hours": "Open 24 hours",
+    "openMaps": "View on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "tags": ["Free public access", "Family-friendly", "Open 24 hours"],
+    "routeCta": {
+      "label": "Plan Your Route",
+      "href": "#transport"
+    },
+    "historyCta": {
+      "label": "History & Culture",
+      "href": "#history"
+    }
+  },
+  "intro": {
+    "title": "Discover Playa Grande Lican-Ray",
+    "description": "Playa Grande is the main beach of Licán Ray, a village in the commune of Villarrica, in the La Araucanía Region, on the north shore of Lake Calafquén. Its fame comes from an unusual combination: a long stretch of dark, volcanic-origin sand — the result of activity from the nearby Villarrica volcano — a clear, calm freshwater lake ideal for water sports, and a strong rooted Mapuche culture. The beach and the neighbouring Playa Chica are separated by a peninsula covered in native forest that, besides holding a trail, works as a natural viewpoint over the islands, the lake and the Andes range. It is one of the most beloved summer destinations in southern Chile and a must-stop for anyone travelling the Araucanian lake route.",
+    "visitGuide": {
+      "title": "Visitor Guide",
+      "eyebrow": "Practical Planning",
+      "description": "The beach is best enjoyed in the mornings and afternoons, with softer light and fewer crowds; the sunset over the lake is usually spectacular, and calm-wind days invite water sports.",
+      "items": [
+        "Set aside half a day to combine a swim, a walk on the peninsula and the lakeside craft market.",
+        "The beach is public and free; there is no entrance control or closing time (open 24 hours).",
+        "Bring sunscreen, a hat and water: lakefront UV radiation is intense in summer.",
+        "The village of Licán Ray is a few minutes' walk away, with restaurants, cabins, campsites and food stalls."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Black volcanic-sand beach facing Lake Calafquén",
+        "Calm freshwater for swimming, kayak, paddle and windsurf",
+        "Peninsula viewpoint with native forest and a marked trail",
+        "Living Mapuche culture: craft market, food and legends"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "How to Reach Playa Grande Lican-Ray",
+    "subtitle": "From the plane or bus to Temuco, then by bus, car, taxi or bike to the shore of Lake Calafquén.",
+    "overviewTitle": "Start with where you are coming from",
+    "overviewText": "Most visitors reach southern Chile by plane or bus to Temuco, and from there combine public transport or a car to Licán Ray. The last mile is short: the beach resort is a few minutes from the village, along the road that borders Lake Calafquén.",
+    "arrivalTitle": "Know this before you set out",
+    "arrivalItems": [
+      "Licán Ray sits on the north shore of Lake Calafquén, commune of Villarrica, about 90–110 km from Temuco.",
+      "There is no passenger train to the area; access is by road (plane + bus/car, or direct bus).",
+      "In January and February it gets crowded; arrive in the morning and book accommodation in advance."
+    ],
+    "modes": [
+      {
+        "label": "Arrival by plane",
+        "icon": "✈️",
+        "title": "Flight to La Araucanía Airport",
+        "description": "The nearest airport is La Araucanía (ZCO), near Temuco, with flights from Santiago and other cities.",
+        "details": [
+          "From Santiago the flight takes about 1 h 20 min to Temuco.",
+          "From the airport to Licán Ray it is roughly 1 h 40 min – 2 h by road.",
+          "At the airport you can rent a car or take a bus/transfer to Villarrica and Licán Ray."
+        ]
+      },
+      {
+        "label": "Public transport",
+        "icon": "🚌",
+        "title": "Long-distance Bus",
+        "description": "From Temuco or Pucón there are regular bus services that reach Licán Ray.",
+        "details": [
+          "The bus terminal is in the village, a few minutes' walk from the beach.",
+          "There are also connections via Villarrica, which lies on the Ruta 5 Sur.",
+          "It is the cheapest option if you are not driving; frequencies rise in high season."
+        ]
+      },
+      {
+        "label": "Driving visit",
+        "icon": "🚗",
+        "title": "Self-drive Route",
+        "description": "Driving lets you explore the Araucanian lake route at your own pace.",
+        "details": [
+          "From Temuco via the Ruta 5 Sur to Villarrica, then the road towards Licán Ray / Lake Calafquén.",
+          "From Pucón you reach it by following the lakeshore on a paved road.",
+          "There is parking in the village and in areas near the beach."
+        ]
+      },
+      {
+        "label": "Short hop",
+        "icon": "🚕",
+        "title": "Taxi or Remise",
+        "description": "From Villarrica or the airport, taxis and remises handle the final stretch comfortably.",
+        "details": [
+          "Ideal if you travel with family, luggage or small children.",
+          "You can combine a bus to Villarrica and a remise to the lake shore.",
+          "Agree on the fare before boarding; distances within the commune are short."
+        ]
+      },
+      {
+        "label": "Slow-paced",
+        "icon": "🚶",
+        "title": "Walking or Cycling",
+        "description": "The village and the beach are very close; walking or renting a bike is part of the plan.",
+        "details": [
+          "From the centre of Licán Ray to the shore is only a few minutes on foot.",
+          "There are cycle routes along the lake, ideal at sunset.",
+          "The peninsula has a marked trail suitable for an easy walk."
+        ]
+      }
+    ],
+    "localTipsTitle": "Tips for your arrival",
+    "localTips": [
+      "If you come in summer, arrive in the morning: parking and shade fill up early.",
+      "There is no train to the area; plan the final stretch by bus, car, taxi or remise.",
+      "Combine your visit with Villarrica or Pucón to make the transfer worthwhile."
+    ],
+    "mapsCta": "View Map & Route",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "officialManagement": {
+    "title": "About Playa Grande",
+    "text": "Playa Grande is a public-use beach resort located in Licán Ray, commune of Villarrica, in the La Araucanía Region. Its protection and management are part of municipal stewardship and the regional tourism agencies, in a territory that belongs to the ancestral Mapuche homeland. The site is maintained as an open lakeside recreation space, where the volcanic-sand beach, the native forest of the peninsula and the village's services all coexist."
+  },
+  "knowledge": {
+    "title": "History, Meaning & Legend of Playa Grande",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Origins & Geology",
+        "content": "The dark sand of Playa Grande is of volcanic origin: it comes from the activity of the Villarrica volcano, one of the most active in the southern Andes. Through eruptions and weathering, dark sediments were carried and deposited on the north shore of Lake Calafquén, forming this singular-coloured beach. The setting is part of the Lake Calafquén basin, a clear-water lacustrine system surrounded by Valdivian-type forests and the Andean range."
+      },
+      {
+        "id": "meaning",
+        "title": "What does 'Licán Ray' mean?",
+        "content": "'Licán Ray' comes from Mapudungun and is usually translated as 'flower of stone'. The area lies in the traditional Mapuche territory, and the place name reflects that deep bond between the original language and the lakeside landscape. Today the name identifies both the beach resort and its main beach."
+      },
+      {
+        "id": "legend",
+        "title": "The Legend of Licán Ray",
+        "content": "Local tradition tells of Licán Ray, daughter of a Mapuche chief, whose beauty and sorrow over an impossible love are said to have become bound to the landscape of this lake. Although the legend is passed down through generations as part of the territory's cultural heritage, it is a popular-rooted tale that embellishes — rather than documents — the site's history."
+      },
+      {
+        "id": "significance",
+        "title": "A Southern Chile Destination",
+        "content": "Today Playa Grande is one of the most visited beach resorts in the La Araucanía Region. Together with Pucón, Villarrica and the southern lakes, it forms part of the Araucanian lake tourist route, and is a key spot to enjoy nature, water sports and Mapuche culture all in one day."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Explore the volcanic sand, Lake Calafquén, the peninsula viewpoint and village life through images.",
+    "photoAlt": "Playa Grande Lican-Ray and Lake Calafquén",
+    "photoAlts": [
+      "Playa Grande's black volcanic sand facing Lake Calafquén",
+      "Lake shore with dark sand and calm water",
+      "View of the native-forest peninsula between Playa Grande and Playa Chica",
+      "Natural viewpoint from the peninsula towards the lake and the range",
+      "Kayaks and paddle boards on the clear waters of Lake Calafquén",
+      "Sunset over the lake with reflections on the black sand",
+      "Mapuche craft market along the village waterfront",
+      "Close-up of the beach's dark volcanic sand",
+      "Visitors enjoying a swim in the freshwater lake",
+      "Marked trail through the peninsula forest",
+      "Views of Lake Calafquén towards the Andean mountains",
+      "Restaurants and cabins along the shores of Licán Ray",
+      "Sport fishing and calm on the lake shore",
+      "Children playing on the beach with gentle waters",
+      "Valdivian native forest on the peninsula viewpoint",
+      "Paved waterfront with access to the beach",
+      "Sunset over the volcano and the lake",
+      "Clear skies and reflections on the lake water",
+      "Small boats in the resort's bay",
+      "Mapuche crafts and food at the local fair",
+      "Couples walking at sunset along the shore",
+      "Lake islands and bays seen from the viewpoint",
+      "Family camping and recreation on the lakeside",
+      "Andean lake landscape framing Playa Grande"
+    ],
+    "viewAll": "View Location on Google Maps",
+    "showMore": "Show More Photos",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback is available on Google Maps (external link).",
+    "featuredTitle": "Selected Impressions",
+    "featuredSubtitle": "Two short visitor quotes bridge the historical read and the real lakeside experience.",
+    "moreReviews": "View on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "featured": [
+      {
+        "text": "A huge black-sand beach with a super calm lake. Perfect for families and spending the whole day.",
+        "source": "Camila R., February 2026"
+      },
+      {
+        "text": "The sunset over the Calafquén is stunning, and the peninsula with its trail is the best viewpoint.",
+        "source": "Diego M., January 2026"
+      }
+    ],
+    "items": [
+      {
+        "name": "Camila R.",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "A huge black-sand beach with a super calm lake. The water is great and there is space for everyone. Perfect for families."
+      },
+      {
+        "name": "Diego M.",
+        "date": "January 2026",
+        "rating": 5,
+        "text": "The sunset over the Calafquén is stunning, and the peninsula with its trail is the best viewpoint for photos. Highly recommended."
+      },
+      {
+        "name": "Francisca L.",
+        "date": "January 2026",
+        "rating": 4,
+        "text": "A lovely, quiet resort with good infrastructure of restaurants and cabins. It fills up in February, so go early."
+      },
+      {
+        "name": "Tomás V.",
+        "date": "December 2025",
+        "rating": 5,
+        "text": "The black sand is unique and the lake is perfect for kayak and paddle. The Mapuche craft market is well worth it."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Licán Ray, commune of Villarrica, La Araucanía Region, Chile (north shore of Lake Calafquén)",
+    "openMaps": "Open in Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "footer": {
+    "siteName": "Playa Grande Lican-Ray",
+    "rights": "© 2026 Playa Grande Lican-Ray — Independent non-profit tourism information project. All rights reserved.",
+    "legalLinksTitle": "Privacy & Terms",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official & Reference Resources",
+    "mapsLabel": "Google Maps →",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "officialLinksList": [
+      { "name": "Chile Travel — Lican Ray", "url": "https://chile.travel/en/attractions/lican-ray/" },
+      { "name": "SERNATUR La Araucanía Region", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "Municipality of Villarrica (Visit Villarrica)", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "Chile es Tuyo", "url": "https://chileestuyo.cl/eventos/conoce-gratis-los-atractivos-turisticos-de-villarrica/" },
+      { "name": "La Araucanía Regional Government (Agorechi)", "url": "https://agorechi.cl/index.php/regiones/gobierno-regional-de-la-araucania/" }
+    ],
+    "disclaimer": "This is an independent, non-profit visitor information project. We are not affiliated with any government body or official institution."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "content": "We generally do not actively collect personally identifiable information from users. Any information provided by you through contact forms or emails will be kept strictly confidential."
+      },
+      {
+        "heading": "2. Use of Information",
+        "content": "The information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+      },
+      {
+        "heading": "3. Cookies and Tracking",
+        "content": "We use cookies and similar tracking technologies to track the activity on our website and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+      },
+      {
+        "heading": "4. Data Security",
+        "content": "The security of your data is important to us. We use commercially acceptable means to protect your Personal Data, though no method of transmission over the Internet is 100% secure."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service. If you disagree with any part of the terms, you may not access the service."
+      },
+      {
+        "heading": "2. Use of Service",
+        "content": "This website is an independent, non-profit visitor information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "content": "All content on this website, including texts, images, and logos, is the property of the website owner unless otherwise stated. Unauthorized use, reproduction, or distribution is strictly prohibited."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained herein."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Strictly Necessary Cookies",
+      "description": "Required for basic website functionality.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how visitors interact with the site."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across websites."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences saved!"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Practical information on facilities, history and planning your visit to Playa Grande Lican-Ray.",
+    "amenities": {
+      "title": "Facilities nearby",
+      "items": [
+        { "icon": "🅿️", "label": "Parking", "value": "In the village and areas near the beach" },
+        { "icon": "🚻", "label": "Restrooms", "value": "In the village, beaches and nearby services" },
+        { "icon": "🔌", "label": "Fuel / EV", "value": "Fuel and EV charging in Villarrica and Pucón" },
+        { "icon": "♿", "label": "Accessibility", "value": "Flat access to shore; sandy stretches" }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "Transport & Facilities",
+        "items": [
+          {
+            "q": "Is there parking nearby? How much does it cost?",
+            "a": "Yes. The village of Licán Ray has parking and stopping areas near the beach; it is usually free or low-cost. In January and February it fills up early, so it is best to arrive in the morning."
+          },
+          {
+            "q": "Can wheelchairs or strollers get close?",
+            "a": "The approach to the shore is mostly flat with access paths from the village, but the beach sand makes it hard for wheelchairs and strollers. It is best to head to the paved waterfront area."
+          },
+          {
+            "q": "Are there restrooms or food nearby?",
+            "a": "The village has public restrooms, beach clubs and food outlets; along the waterfront you will find restaurants, cafés and kiosks with seafood and Mapuche food, a few minutes from the beach."
+          }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "History & Trivia",
+        "items": [
+          {
+            "q": "Why is the sand black?",
+            "a": "Because it is of volcanic origin: it comes from the activity of the Villarrica volcano and the basaltic rocks of the area, deposited on the shore of Lake Calafquén."
+          },
+          {
+            "q": "What can you do on the lake and the peninsula?",
+            "a": "On the lake you can swim and practise kayak, paddle, windsurf, water skiing and sport fishing. The peninsula between Playa Grande and Playa Chica has a trail and a viewpoint over islands, the lake and the range."
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Planning & Tickets",
+        "items": [
+          {
+            "q": "Is there an entrance fee?",
+            "a": "No. Playa Grande is a public, free-access beach resort, open 24 hours; there is no entrance control or cost."
+          },
+          {
+            "q": "How long does a visit take?",
+            "a": "A typical visit lasts half a day: a swim and walk along the waterfront, the climb to the peninsula viewpoint and a stroll through the craft market. Add Villarrica or Pucón and it fills a full day."
+          },
+          {
+            "q": "Can I go in bad weather?",
+            "a": "The beach is open-air and can be visited any day, but in rain or strong wind the lake gets choppy and temperatures drop. In winter crowds are low; the high season is January and February."
+          }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "What to see nearby",
+        "items": [
+          {
+            "q": "After visiting, what else do you recommend nearby?",
+            "a": "Very close by are Playa Chica, the village of Licán Ray and Lake Calafquén. A short distance away are Villarrica (with its volcano and beach), Pucón, the Coñaripe hot springs and Huerquehue National Park."
+          }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Discover More in La Araucanía",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Tours & Activities",
+    "attractions": [
+      { "name": "Villarrica Volcano and its national park", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "Pucón and Lake Villarrica", "url": "https://chile.travel/en/attractions/lican-ray/" },
+      { "name": "Playa Chica de Licán Ray", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "Coñaripe Hot Springs", "url": "https://chileestuyo.cl/eventos/conoce-gratis-los-atractivos-turisticos-de-villarrica/" },
+      { "name": "Huerquehue National Park", "url": "https://www.sernatur.cl/region/la-araucania/" }
+    ],
+    "tours": [
+      { "name": "Kayak and paddle on Lake Calafquén", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "Villarrica Volcano ascent", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "Mapuche cultural experience", "url": "https://chile.travel/en/attractions/lican-ray/" }
+    ]
+  },
+  "practicalGuide": {
+    "eyebrow": "Practical Visitor Guide",
+    "title": "Practical Visitor Guide",
+    "subtitle": "Useful information to plan your stay without promoting any business: where to stay by area, photo spots with coordinates, and beach precautions.",
+    "stay": {
+      "title": "Where to stay (by area)",
+      "items": [
+        "Lake Calafquén shore: cabins and campsites right by the water, ideal for water sports and sunset views from your window.",
+        "Licán Ray town centre: more restaurants, the Mapuche craft market and local life, just minutes from the beach.",
+        "Typical southern-Chile lodging: family cabañas and forest-side campings (campings); we don't endorse specific brands.",
+        "High season Jan–Feb: book months ahead — prices rise and availability drops."
+      ]
+    },
+    "photo": {
+      "title": "Best photo spots",
+      "intro": "Approximate coordinates to navigate straight to the viewpoints:",
+      "spots": [
+        { "name": "Licán Ray Peninsula Viewpoint", "coords": "39.4137° S, 72.0806° W" },
+        { "name": "Playa Grande Waterfront", "coords": "39.4105° S, 72.0831° W" },
+        { "name": "Black-sand to blue-water transition", "coords": "39.4112° S, 72.0824° W" }
+      ],
+      "note": "Best light: early morning and golden hour; the lake is calmest at dawn, perfect for reflections."
+    },
+    "tips": {
+      "title": "Beach precautions",
+      "items": [
+        "Volcanic black sand absorbs sunlight and gets very hot in summer: wear beach shoes to avoid burning your feet.",
+        "Safer swimming near the waterfront; paddle and kayak are best in the calm morning hours.",
+        "Public restrooms and showers in the village and beach clubs; flat access to the shore, but sand hinders wheelchairs.",
+        "Bring sunscreen, a hat and water: lakefront UV radiation is intense."
+      ]
+    }
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "title": "Playa Grande Lican-Ray | Licán Ray, Araucanía, Chile",
+    "description": "Guía completa de Playa Grande Lican-Ray: playa de arena volcánica negra junto al lago Calafquén, deportes acuáticos, cultura mapuche, fotos, opiniones y cómo llegar en la Región de La Araucanía, Chile."
+  },
+  "header": {
+    "siteName": "Playa Grande Lican-Ray",
+    "home": "Inicio",
+    "visit": "Visita",
+    "transport": "Cómo llegar",
+    "history": "Historia",
+    "gallery": "Galería",
+    "reviews": "Opiniones",
+    "faq": "Preguntas",
+    "map": "Mapa",
+    "backToHome": "Volver al inicio"
+  },
+  "common": {
+    "changeLanguage": "Cambiar idioma",
+    "toggleTheme": "Cambiar tema"
+  },
+  "hero": {
+    "title": "Playa Grande Lican-Ray",
+    "subtitle": "Una playa de arena volcánica negra sobre la orilla norte del lago Calafquén, entre bosque nativo, deportes acuáticos y cultura mapuche en la Región de La Araucanía.",
+    "rating": "4.6(19.180)",
+    "reviewCount": "19.180 opiniones",
+    "hours": "Abierto las 24 horas",
+    "openMaps": "Ver ubicación en Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "tags": ["Acceso libre y gratuito", "Ideal para familias", "Abierto 24 horas"],
+    "routeCta": {
+      "label": "Cómo llegar",
+      "href": "#transport"
+    },
+    "historyCta": {
+      "label": "Historia y cultura",
+      "href": "#history"
+    }
+  },
+  "intro": {
+    "title": "Descubre Playa Grande Lican-Ray",
+    "description": "Playa Grande es la playa principal de Licán Ray, localidad de la comuna de Villarrica, en la Región de La Araucanía, situada en la orilla norte del lago Calafquén. Debe su fama a una combinación poco común: una prolongada arena de origen volcánico de color oscuro —producto de la actividad del cercano volcán Villarrica—, un lago de agua dulce despejada y tranquila ideal para los deportes náuticos, y un fuerte arraigo de la cultura mapuche. La playa y la vecina Playa Chica quedan separadas por una península cubierta de bosque nativo que, además de albergar un sendero, funciona como mirador natural sobre islas, el lago y la cordillera de los Andes. Es uno de los destinos estivales más queridos del sur de Chile y una parada ineludible para quienes recorren la ruta de los lagos araucanos.",
+    "visitGuide": {
+      "title": "Guía de visita",
+      "eyebrow": "Planificación útil",
+      "description": "La playa se disfruta mejor en las mañanas y tardes, con luz más suave y menor afluencia; el atardecer sobre el lago suele ser espectacular y las jornadas de viento calmo invitan a los deportes acuáticos.",
+      "items": [
+        "Reserva medio día para combinar baño, caminata por la península y la feria artesanal a orillas del lago.",
+        "La playa es de acceso público y libre; no hay control de entrada ni horario de cierre (abierto las 24 horas).",
+        "Lleva protector solar, gorro y agua: la radiación en la orilla del lago es intensa en verano.",
+        "El pueblo de Licán Ray queda a pocos minutos a pie, con restaurantes, cabañas, campings y locales de comida."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Destacados",
+      "items": [
+        "Playa de arena volcánica negra frente al lago Calafquén",
+        "Agua dulce tranquila para natación, kayak, paddle y windsurf",
+        "Península-mirador con bosque nativo y sendero señalizado",
+        "Cultura mapuche viva: feria artesanal, gastronomía y leyendas"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "Cómo llegar a Playa Grande Lican-Ray",
+    "subtitle": "Desde el avión o el bus hasta Temuco, y desde ahí en bus, auto, taxi o bici hasta la orilla del lago Calafquén.",
+    "overviewTitle": "Primero define tu punto de partida",
+    "overviewText": "La mayoría llega al sur de Chile por avión o bus hasta Temuco, y desde ahí combina transporte público o auto hasta Licán Ray. La última milla es corta: el balneario queda a pocos minutos del pueblo, sobre la ruta que bordea el lago Calafquén.",
+    "arrivalTitle": "Antes de salir",
+    "arrivalItems": [
+      "Licán Ray está en la orilla norte del lago Calafquén, comuna de Villarrica, a unos 90–110 km de Temuco.",
+      "No hay tren de pasajeros a la zona; el acceso es por carretera (avión + bus/auto o bus directo).",
+      "En enero y febrero la afluencia es alta; conviene llegar en la mañana y reservar alojamiento con antelación."
+    ],
+    "modes": [
+      {
+        "label": "Llegada en avión",
+        "icon": "✈️",
+        "title": "Avión al Aeropuerto de La Araucanía",
+        "description": "El aeropuerto más cercano es La Araucanía (ZCO), cerca de Temuco, con vuelos desde Santiago y otras ciudades.",
+        "details": [
+          "Desde Santiago el vuelo dura cerca de 1 h 20 min hasta Temuco.",
+          "Del aeropuerto a Licán Ray son unas 1 h 40 min – 2 h por carretera.",
+          "En el aeropuerto puedes rentar auto o tomar bus/transfer hacia Villarrica y Licán Ray."
+        ]
+      },
+      {
+        "label": "Transporte público",
+        "icon": "🚌",
+        "title": "Bus de larga distancia",
+        "description": "Desde Temuco o Pucón hay servicios regulares de bus que llegan a Licán Ray.",
+        "details": [
+          "El terminal de buses queda en el pueblo, a pocos minutos a pie de la playa.",
+          "También hay combinaciones vía Villarrica, que está sobre la Ruta 5 Sur.",
+          "Es la opción más económica si no conduces; frecuencias mayores en temporada."
+        ]
+      },
+      {
+        "label": "Visita en auto",
+        "icon": "🚗",
+        "title": "Ruta en coche",
+        "description": "Conducir permite recorrer la ruta de los lagos araucanos a tu ritmo.",
+        "details": [
+          "Desde Temuco por la Ruta 5 Sur hasta Villarrica y luego la ruta hacia Licán Ray / lago Calafquén.",
+          "Desde Pucón se llega bordeando el lago por ruta pavimentada.",
+          "Hay estacionamiento en el pueblo y en zonas aledañas a la playa."
+        ]
+      },
+      {
+        "label": "Trayecto corto",
+        "icon": "🚕",
+        "title": "Taxi o remise",
+        "description": "Desde Villarrica o el aeropuerto, taxi y remise resuelven el tramo final con comodidad.",
+        "details": [
+          "Ideal si viajas con familia, equipaje o niños pequeños.",
+          "Se puede combinar con bus hasta Villarrica y remise hasta la orilla del lago.",
+          "Acuerda tarifa antes de subir; las distancias son cortas dentro de la comuna."
+        ]
+      },
+      {
+        "label": "Ritmo pausado",
+        "icon": "🚶",
+        "title": "A pie o en bicicleta",
+        "description": "El pueblo y la playa están muy cerca; caminar o pedir una bici es parte del plan.",
+        "details": [
+          "Desde el centro de Licán Ray a la orilla hay solo unos minutos a pie.",
+          "Hay rutas ciclables junto al lago, ideales al atardecer.",
+          "La península tiene sendero señalizado apto para caminata suave."
+        ]
+      }
+    ],
+    "localTipsTitle": "Consejos para tu llegada",
+    "localTips": [
+      "Si vienes en verano, llega en la mañana: el estacionamiento y las sombras se llenan pronto.",
+      "No hay tren a la zona; planifica el tramo final en bus, auto, taxi o remise.",
+      "Combina la visita con Villarrica o Pucón para aprovechar mejor el traslado."
+    ],
+    "mapsCta": "Ver mapa y ruta",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "officialManagement": {
+    "title": "Acerca de Playa Grande",
+    "text": "Playa Grande es un balneario de uso público ubicado en Licán Ray, comuna de Villarrica, en la Región de La Araucanía. Su resguardo y ordenamiento forman parte de la gestión municipal y de los organismos regionales de turismo, en un territorio que forma parte del ancestral territorio mapuche. El sitio se mantiene como espacio abierto de recreación lacustre, donde conviven la playa de arena volcánica, el bosque nativo de la península y la oferta de servicios del pueblo."
+  },
+  "knowledge": {
+    "title": "Historia, significado y leyenda de Playa Grande",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Orígenes y geología",
+        "content": "La arena oscura de Playa Grande es de origen volcánico: proviene de la actividad del volcán Villarrica, uno de los más activos de los Andes del sur. A lo largo de erupciones y procesos de meteorización, los sedimentos oscuros fueron arrastrados y depositados en la orilla norte del lago Calafquén, formando esta playa de color singular. El entorno forma parte de la cuenca del lago Calafquén, un sistema lacustre de aguas claras rodeado por bosques del tipo Valdiviano y la cordillera andina."
+      },
+      {
+        "id": "meaning",
+        "title": "¿Qué significa 'Licán Ray'?",
+        "content": "El nombre 'Licán Ray' proviene del mapudungun y se traduce habitualmente como 'flor de piedra'. La zona se asienta en el territorio tradicional mapuche, y el topónimo refleja esa profunda relación entre la lengua originaria y el paisaje lacustre. Hoy el nombre identifica tanto a la localidad balnearia como a su playa principal."
+      },
+      {
+        "id": "legend",
+        "title": "Leyenda de Licán Ray",
+        "content": "La tradición local cuenta la historia de Licán Ray, hija de un cacique mapuche, cuya belleza y tristeza por un amor imposible habrían quedado vinculadas al paisaje de este lago. Aunque la leyenda se transmite de generación en generación como parte del acervo cultural del territorio, es una narración de raíz popular que adorna —más que documenta— la historia del lugar."
+      },
+      {
+        "id": "significance",
+        "title": "Un destino del sur de Chile",
+        "content": "Hoy Playa Grande es uno de los balnearios más visitados de la Región de La Araucanía. Junto a Pucón, Villarrica y los lagos del sur, forma parte de la ruta turística de los lagos araucanos, y es un punto clave para disfrutar la naturaleza, los deportes náuticos y la cultura mapuche en un mismo día."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galería de fotos",
+    "subtitle": "Recorre la arena volcánica, el lago Calafquén, la península-mirador y la vida del pueblo en imágenes.",
+    "photoAlt": "Playa Grande Lican-Ray y lago Calafquén",
+    "photoAlts": [
+      "Playa Grande de arena volcánica negra frente al lago Calafquén",
+      "Orilla del lago con la arena oscura y el agua tranquila",
+      "Vista de la península cubierta de bosque nativo entre Playa Grande y Playa Chica",
+      "Mirador natural desde la península hacia el lago y la cordillera",
+      "Kayaks y paddle sobre las aguas claras del lago Calafquén",
+      "Atardecer sobre el lago con reflejos en la arena negra",
+      "Feria artesanal mapuche junto a la costanera del pueblo",
+      "Detalle de la arena volcánica oscura de la playa",
+      "Turistas disfrutando el baño en el lago de agua dulce",
+      "Sendero señalizado por el bosque de la península",
+      "Vistas del lago Calafquén hacia las montañas andinas",
+      "Restaurantes y cabañas a orillas de Licán Ray",
+      "Pesca deportiva y tranquilidad en la orilla del lago",
+      "Niños jugando en la playa de aguas calmas",
+      "Bosque nativo valdiviano en la península-mirador",
+      "Costanera pavimentada con acceso a la playa",
+      "Puesta de sol sobre el volcán y el lago",
+      "Cielos despejados y reflejos en el agua del lago",
+      "Embarcaciones pequeñas en la bahía del balneario",
+      "Artesanía y gastronomía mapuche en la feria local",
+      "Parejas caminando al atardecer por la orilla",
+      "Islas y bahías del lago vistas desde el mirador",
+      "Acampada y recreo familiar en la ribera del lago",
+      "Paisaje lacustre andino enmarcando Playa Grande"
+    ],
+    "viewAll": "Ver ubicación en Google Maps",
+    "showMore": "Mostrar más fotos",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "reviews": {
+    "title": "Opiniones de los visitantes",
+    "declaration": "Las opiniones de los visitantes están disponibles en Google Maps (enlace externo).",
+    "featuredTitle": "Impresiones destacadas",
+    "featuredSubtitle": "Dos voces resumidas ayudan a enlazar la lectura histórica con la experiencia real del lago.",
+    "moreReviews": "Ver en Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "featured": [
+      {
+        "text": "Una playa enorme de arena negra con el lago súper calmo. Ideal para ir en familia y pasar todo el día.",
+        "source": "Camila R., febrero 2026"
+      },
+      {
+        "text": "El atardecer sobre el Calafquén es impresionante, y la península con el sendero es el mejor mirador.",
+        "source": "Diego M., enero 2026"
+      }
+    ],
+    "items": [
+      {
+        "name": "Camila R.",
+        "date": "Febrero 2026",
+        "rating": 5,
+        "text": "Una playa enorme de arena negra con el lago súper calmo. El agua está buenísima y hay espacio para todos. Ideal para ir en familia."
+      },
+      {
+        "name": "Diego M.",
+        "date": "Enero 2026",
+        "rating": 5,
+        "text": "El atardecer sobre el Calafquén es impresionante, y la península con el sendero es el mejor mirador para fotos. Muy recomendable."
+      },
+      {
+        "name": "Francisca L.",
+        "date": "Enero 2026",
+        "rating": 4,
+        "text": "Lindo balneario, tranquilo y con buena infraestructura de restaurants y cabañas. Se llena en febrero, conviene ir temprano."
+      },
+      {
+        "name": "Tomás V.",
+        "date": "Diciembre 2025",
+        "rating": 5,
+        "text": "La arena negra es única y el lago es perfecto para kayak y paddle. La feria artesanal mapuche vale mucho la pena."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Cómo llegar",
+    "subtitle": "Licán Ray, comuna de Villarrica, Región de La Araucanía, Chile (orilla norte del lago Calafquén)",
+    "openMaps": "Abrir en Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "footer": {
+    "siteName": "Playa Grande Lican-Ray",
+    "rights": "© 2026 Playa Grande Lican-Ray — Proyecto independiente y sin fines de lucro de información turística. Todos los derechos reservados.",
+    "legalLinksTitle": "Privacidad y términos",
+    "privacy": "Política de privacidad",
+    "terms": "Términos del servicio",
+    "cookies": "Configuración de cookies",
+    "officialResourcesTitle": "Recursos oficiales y de referencia",
+    "mapsLabel": "Google Maps →",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "officialLinksList": [
+      { "name": "Chile Travel — Lican Ray", "url": "https://chile.travel/en/attractions/lican-ray/" },
+      { "name": "SERNATUR Región de La Araucanía", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "Municipalidad de Villarrica (Visit Villarrica)", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "Chile es Tuyo", "url": "https://chileestuyo.cl/eventos/conoce-gratis-los-atractivos-turisticos-de-villarrica/" },
+      { "name": "Gobierno Regional de La Araucanía (Agorechi)", "url": "https://agorechi.cl/index.php/regiones/gobierno-regional-de-la-araucania/" }
+    ],
+    "disclaimer": "Este es un proyecto independiente y sin fines de lucro de información para visitantes. No estamos afiliados con ningún organismo gubernamental ni institución oficial."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización: Marzo 2026",
+    "sections": [
+      {
+        "heading": "1. Recopilación de información",
+        "content": "Por lo general, no recopilamos activamente información personal identificable de los usuarios. Cualquier información que nos proporciones mediante formularios de contacto o correos electrónicos se mantendrá estrictamente confidencial."
+      },
+      {
+        "heading": "2. Uso de la información",
+        "content": "La información que recopilamos se utiliza únicamente para ofrecer, mantener y mejorar nuestros servicios, y para comunicarnos contigo. No vendemos ni compartimos tu información personal con terceros con fines de marketing."
+      },
+      {
+        "heading": "3. Cookies y seguimiento",
+        "content": "Utilizamos cookies y tecnologías de seguimiento similares para monitorear la actividad en nuestro sitio web y almacenar cierta información. Puedes configurar tu navegador para rechazar todas las cookies o para avisarte cuando se envía una cookie."
+      },
+      {
+        "heading": "4. Seguridad de los datos",
+        "content": "La seguridad de tus datos es importante para nosotros. Utilizamos medios comercialmente aceptables para proteger tus datos personales, aunque ningún método de transmisión por Internet es 100% seguro."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos del servicio",
+    "lastUpdated": "Última actualización: Marzo 2026",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los términos",
+        "content": "Al acceder y utilizar este sitio web, aceptas quedar vinculado por estos términos del servicio. Si no estás de acuerdo con alguna parte de los términos, no podrás acceder al servicio."
+      },
+      {
+        "heading": "2. Uso del servicio",
+        "content": "Este sitio web es un proyecto independiente y sin fines de lucro de información para visitantes. La información proporcionada es solo para fines informativos generales. Aceptas utilizar el sitio de manera responsable y lícita."
+      },
+      {
+        "heading": "3. Propiedad intelectual",
+        "content": "Todo el contenido de este sitio web, incluidos textos, imágenes y logotipos, es propiedad del titular del sitio salvo que se indique lo contrario. Queda estrictamente prohibido el uso, reproducción o distribución no autorizados."
+      },
+      {
+        "heading": "4. Limitación de responsabilidad",
+        "content": "No nos hacemos responsables de ningún daño directo, indirecto, incidental o consecuente derivado del uso o la imposibilidad de usar este sitio web o la información que contiene."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Configuración de cookies",
+    "description": "Gestiona tus preferencias de cookies.",
+    "essential": {
+      "title": "Cookies estrictamente necesarias",
+      "description": "Requeridas para la funcionalidad básica del sitio web.",
+      "badge": "Siempre activas"
+    },
+    "analytics": {
+      "title": "Cookies de analítica",
+      "description": "Nos ayudan a entender cómo interactúan los visitantes con el sitio."
+    },
+    "marketing": {
+      "title": "Cookies de marketing",
+      "description": "Se utilizan para rastrear a los visitantes entre sitios web."
+    },
+    "save": "Guardar preferencias",
+    "saved": "¡Preferencias guardadas!"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Información práctica sobre servicios, historia y planificación de tu visita a Playa Grande Lican-Ray.",
+    "amenities": {
+      "title": "Servicios en la zona",
+      "items": [
+        { "icon": "🅿️", "label": "Estacionamiento", "value": "En el pueblo y zonas aledañas a la playa" },
+        { "icon": "🚻", "label": "Baños", "value": "En el pueblo, balnearios y servicios cercanos" },
+        { "icon": "🔌", "label": "Carga / Gasolina", "value": "Bencinas y carga EV en Villarrica y Pucón" },
+        { "icon": "♿", "label": "Accesibilidad", "value": "Acceso plano a la orilla; tramos con arena" }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "Transporte e infraestructura",
+        "items": [
+          {
+            "q": "¿Hay estacionamiento en la zona? ¿Cuánto cuesta?",
+            "a": "Sí. El pueblo de Licán Ray cuenta con estacionamiento y zonas de detención cerca de la playa; suele ser gratuito o de bajo costo. En enero y febrero se llena temprano, así que conviene llegar en la mañana."
+          },
+          {
+            "q": "¿Se puede acceder con silla de ruedas o coche de bebé?",
+            "a": "La llegada a la orilla es mayormente plana y hay pasos habilitados desde el pueblo, pero la arena de la playa dificulta el paso de sillas de ruedas y coches de bebé. Conviene acercarse hasta la zona de costanera pavimentada."
+          },
+          {
+            "q": "¿Hay baños o servicios de comida en la zona?",
+            "a": "En el pueblo hay baños públicos, balnearios y locales de comida; sobre la costanera se encuentran restaurantes, cafés y kioskos de mariscos y comida mapuche, a pocos minutos de la playa."
+          }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "Historia y curiosidades",
+        "items": [
+          {
+            "q": "¿Por qué la arena es negra?",
+            "a": "Porque es de origen volcánico: proviene de la actividad del volcán Villarrica y de rocas basálticas de la zona, depositadas en la orilla del lago Calafquén."
+          },
+          {
+            "q": "¿Qué se puede hacer en el lago y la península?",
+            "a": "En el lago se nada y se practican kayak, paddle, windsurf, esquí acuático y pesca deportiva. La península entre Playa Grande y Playa Chica tiene sendero y mirador sobre islas, lago y la cordillera."
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Planificación y entradas",
+        "items": [
+          {
+            "q": "¿Se paga entrada?",
+            "a": "No. Playa Grande es un balneario de acceso público y libre, abierto las 24 horas; no hay control de entrada ni costo."
+          },
+          {
+            "q": "¿Cuánto tiempo se necesita para visitarlo?",
+            "a": "Una visita habitual dura medio día: baño y caminata por la costanera, subida a la península-mirador y recorrido por la feria artesanal. Si sumas Villarrica o Pucón, la experiencia llena un día completo."
+          },
+          {
+            "q": "¿Se puede ir con mal tiempo?",
+            "a": "La playa es al aire libre y se puede visitar cualquier día, pero en lluvia o viento fuerte el lago se agita y bajan las temperaturas. En invierno la afluencia es baja; la temporada alta es enero y febrero."
+          }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "Qué ver cerca",
+        "items": [
+          {
+            "q": "Terminando la visita, ¿qué otros lugares recomiendan cerca?",
+            "a": "Muy cerca están Playa Chica, el pueblo de Licán Ray y el lago Calafquén. A poca distancia se encuentran Villarrica (con su volcán y playa), Pucón, las termas de Coñaripe y el Parque Nacional Huerquehue."
+          }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Descubre más en La Araucanía",
+    "attractionsTitle": "Atracciones cercanas",
+    "toursTitle": "Tours y actividades recomendados",
+    "attractions": [
+      { "name": "Volcán Villarrica y su parque nacional", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "Pucón y el lago Villarrica", "url": "https://chile.travel/en/attractions/lican-ray/" },
+      { "name": "Playa Chica de Licán Ray", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "Termas de Coñaripe", "url": "https://chileestuyo.cl/eventos/conoce-gratis-los-atractivos-turisticos-de-villarrica/" },
+      { "name": "Parque Nacional Huerquehue", "url": "https://www.sernatur.cl/region/la-araucania/" }
+    ],
+    "tours": [
+      { "name": "Kayak y paddle en el lago Calafquén", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "Ascenso al volcán Villarrica", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "Experiencia cultural mapuche", "url": "https://chile.travel/en/attractions/lican-ray/" }
+    ]
+  },
+  "practicalGuide": {
+    "eyebrow": "Guía práctica de visitante",
+    "title": "Guía de acceso práctico (Practical Visitor Guide)",
+    "subtitle": "Información útil para planificar tu estadía sin promover comercios: zonas para alojarte, puntos de foto con coordenadas y precauciones en la playa.",
+    "stay": {
+      "title": "Dónde alojarse (por zona)",
+      "items": [
+        "Orilla del lago Calafquén: cabañas y campings frente al agua, ideales para deportes náuticos y puestas de sol desde la ventana.",
+        "Centro de Licán Ray: mayor oferta de restaurantes, feria artesanal mapuche y vida local a pocos minutos de la playa.",
+        "Tipos típicos del sur de Chile: cabañas (cabañas) para familias y campings (campings) junto al bosque; sin recomendar marcas concretas.",
+        "Temporada alta enero–febrero: conviene reservar con meses de antelación, los precios suben y la disponibilidad baja."
+      ]
+    },
+    "photo": {
+      "title": "Mejores puntos de foto",
+      "intro": "Coordenadas aproximadas para navegar directamente a los miradores:",
+      "spots": [
+        { "name": "Mirador Península de Licán Ray", "coords": "39.4137° S, 72.0806° W" },
+        { "name": "Costanera de Playa Grande", "coords": "39.4105° S, 72.0831° W" },
+        { "name": "Transición arena negra – agua azul", "coords": "39.4112° S, 72.0824° W" }
+      ],
+      "note": "Luz mejor: mañana temprano y dorada del atardecer; el lago está más calmado al amanecer, ideal para reflejos."
+    },
+    "tips": {
+      "title": "Precauciones en la playa",
+      "items": [
+        "La arena volcánica negra absorbe el sol y se calienta mucho en verano: usa calzado de playa para evitar quemaduras en los pies.",
+        "Zonas de baño más seguras cerca de la costanera; paddle y kayak mejores en calma matinal.",
+        "Baños públicos y duchas en el pueblo y balnearios; acceso plano a la orilla, pero la arena dificulta sillas de ruedas.",
+        "Lleva protector solar, gorro y agua: la radiación en la orilla del lago es intensa."
+      ]
+    }
+  }
+}

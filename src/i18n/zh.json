@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "title": "Playa Grande Lican-Ray | 智利阿劳卡尼亚大区 Licán Ray",
+    "description": "Playa Grande Lican-Ray 完整指南：卡拉夫根湖（Lake Calafquén）北岸的火山黑沙滩、水上运动、马普切文化、照片、游客评价，以及如何在智利阿劳卡尼亚大区抵达。"
+  },
+  "header": {
+    "siteName": "Playa Grande Lican-Ray",
+    "home": "首页",
+    "visit": "导览",
+    "transport": "交通",
+    "history": "历史",
+    "gallery": "画廊",
+    "reviews": "评价",
+    "faq": "问答",
+    "map": "地图",
+    "backToHome": "返回首页"
+  },
+  "common": {
+    "changeLanguage": "切换语言",
+    "toggleTheme": "切换主题"
+  },
+  "hero": {
+    "title": "Playa Grande Lican-Ray",
+    "subtitle": "位于卡拉夫根湖北岸的火山黑沙滩，原生森林、水上运动与马普切文化交织于智利阿劳卡尼亚大区。",
+    "rating": "4.6(19,180)",
+    "reviewCount": "19,180 条评价",
+    "hours": "24 小时开放",
+    "openMaps": "查看 Google 地图位置",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "tags": ["免费公共开放", "适合家庭出游", "24 小时开放"],
+    "routeCta": {
+      "label": "规划前往路线",
+      "href": "#transport"
+    },
+    "historyCta": {
+      "label": "探索历史与文化",
+      "href": "#history"
+    }
+  },
+  "intro": {
+    "title": "探索 Playa Grande Lican-Ray",
+    "description": "Playa Grande 是 Licán Ray 镇的主要海滩，隶属比亚里卡（Villarrica）市镇，位于阿劳卡尼亚大区的卡拉夫根湖北岸。它的名声来自一种少见的组合：一片因附近比亚里卡火山活动而形成的深色火山黑沙滩、一泓清澈平静、适合水上运动的淡水湖，以及深厚的马普切（Mapuche）文化底蕴。Playa Grande 与相邻的 Playa Chica 被一座覆盖着原生森林的半岛隔开，半岛内设有徒步小径，更是俯瞰湖中岛屿、湖面与安第斯山脉的天然观景台。它是智利南部最受欢迎的夏季度假胜地之一，也是游览阿劳卡尼亚湖泊路线的必经一站。",
+    "visitGuide": {
+      "title": "游览指南",
+      "eyebrow": "实用规划",
+      "description": "上午与午后光线更柔和、人流更少，是游览海滩的最佳时段；湖面上的日落通常格外壮丽，而无风的日子里水面平静，最适合水上运动。",
+      "items": [
+        "预留半天时间，将湖中戏水、半岛徒步与湖畔原住民集市串连起来。",
+        "海滩为公共免费开放，无入园管控，也无闭园时间（24 小时开放）。",
+        "请携带防晒用品、帽子与饮水：湖畔夏季紫外线极强。",
+        "Licán Ray 镇步行仅几分钟即达，餐厅、度假木屋、营地与小吃摊一应俱全。"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "亮点特色",
+      "items": [
+        "卡拉夫根湖畔的火山黑沙滩",
+        "平静淡水，适合游泳、皮划艇、桨板与帆板",
+        "半岛观景台，原生森林与标识步道",
+        "鲜活的马普切文化：手工艺集市、美食与传说"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "如何前往 Playa Grande Lican-Ray",
+    "subtitle": "先坐飞机或巴士抵达特木科（Temuco），再换乘巴士、自驾、出租车或骑行抵达卡拉夫根湖畔。",
+    "overviewTitle": "先判断你从哪里出发",
+    "overviewText": "大多数游客通过飞机或长途巴士先抵达智利南部的特木科，再从那里结合公共交通或自驾前往 Licán Ray。最后一程很短：海滨度假区距离小镇仅几分钟车程，沿卡拉夫根湖岸的公路铺展。",
+    "arrivalTitle": "出发前先记住",
+    "arrivalItems": [
+      "Licán Ray 位于卡拉夫根湖北岸、比亚里卡市镇，距特木科约 90–110 公里。",
+      "该地区没有客运火车，只能经公路抵达（飞机＋巴士/自驾，或直达巴士）。",
+      "每年 1–2 月人流密集，建议上午到达并提前预订住宿。"
+    ],
+    "modes": [
+      {
+        "label": "飞机抵达",
+        "icon": "✈️",
+        "title": "飞往阿劳卡尼亚机场",
+        "description": "最近的机场是特木科附近的阿劳卡尼亚机场（ZCO），有来自圣地亚哥等城市的航班。",
+        "details": [
+          "从圣地亚哥飞往特木科约需 1 小时 20 分钟。",
+          "从机场到 Licán Ray 约需 1 小时 40 分钟至 2 小时车程。",
+          "机场可租车，也可乘坐巴士或接驳车前往比亚里卡与 Licán Ray。"
+        ]
+      },
+      {
+        "label": "公共交通",
+        "icon": "🚌",
+        "title": "长途巴士",
+        "description": "从特木科或普孔（Pucón）有定期巴士直达 Licán Ray。",
+        "details": [
+          "巴士站位于镇内，步行几分钟即可到达海滩。",
+          "也可经停位于 5 号公路（Ruta 5 Sur）沿线的比亚里卡中转。",
+          "若不打算自驾，这是最经济的方案；旺季班次更多。"
+        ]
+      },
+      {
+        "label": "自驾访问",
+        "icon": "🚗",
+        "title": "自驾导航",
+        "description": "自驾让你以自己节奏游览阿劳卡尼亚湖泊路线。",
+        "details": [
+          "从特木科沿 5 号公路（Ruta 5 Sur）至比亚里卡，再转往 Licán Ray / 卡拉夫根湖方向。",
+          "从普孔出发沿湖岸铺装公路即可抵达。",
+          "镇内与海滩周边均设有停车区域。"
+        ]
+      },
+      {
+        "label": "短途接驳",
+        "icon": "🚕",
+        "title": "出租车 / Remise",
+        "description": "从比亚里卡或机场出发，出租车与 Remise 能舒适地解决最后一段。",
+        "details": [
+          "若与家人、行李或幼儿同行，最为合适。",
+          "可先乘巴士到比亚里卡，再换乘 Remise 直达湖畔。",
+          "上车前确认车资；市镇内路程都很短。"
+        ]
+      },
+      {
+        "label": "轻体力路线",
+        "icon": "🚶",
+        "title": "徒步 / 骑行",
+        "description": "小镇与海滩非常近，步行或租一辆单车本身就是行程的一部分。",
+        "details": [
+          "从 Licán Ray 镇中心到湖畔步行仅几分钟。",
+          "湖边设有骑行路线，尤其适合日落时分。",
+          "半岛内有标识清晰、难度平缓的徒步小径。"
+        ]
+      }
+    ],
+    "localTipsTitle": "到达后的实用建议",
+    "localTips": [
+      "若夏季前往，建议上午到达：停车位与遮荫处很快被占满。",
+      "该地区无火车，最后一程请规划为巴士、自驾、出租车或 Remise。",
+      "将行程与比亚里卡或普孔串联，让路途更值得。"
+    ],
+    "mapsCta": "查看地图与路线",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "officialManagement": {
+    "title": "关于 Playa Grande",
+    "text": "Playa Grande 是 Licán Ray 镇的公共海滩度假区，隶属阿劳卡尼亚大区比亚里卡市镇。其保护与管理由市镇与区域旅游机构共同负责，所在地域属于马普切民族的 ancestral 传统领地。这里作为开放的湖滨休闲空间维护，火山黑沙滩、半岛原生森林与小镇配套服务在此和谐共存。"
+  },
+  "knowledge": {
+    "title": "Playa Grande 的历史、寓意与传说",
+    "sections": [
+      {
+        "id": "history",
+        "title": "起源与地质",
+        "content": "Playa Grande 深色的沙子源自火山：来自南部安第斯山脉最活跃的火山之一——比亚里卡火山的活动。历经多次喷发与风化，深色沉积物被搬运并堆积在卡拉夫根湖北岸，形成了这片色泽独特的海滩。周边环境属于卡拉夫根湖流域，是一片被瓦尔迪维亚（Valdivian）型森林与安第斯山脉环抱的清澈湖系。"
+      },
+      {
+        "id": "meaning",
+        "title": "“Licán Ray” 是什么意思？",
+        "content": "“Licán Ray” 出自马普切语（Mapudungun），通常译为“岩石之花”（flor de piedra）。该地区坐落于马普切传统领地之上，地名反映出原住民语言与湖滨景观之间深厚的纽带。如今，这个名字既指代这座海滩度假小镇，也指代它的主沙滩。"
+      },
+      {
+        "id": "legend",
+        "title": "Licán Ray 的传说",
+        "content": "当地传说讲述了一位马普切酋长之女 Licán Ray 的故事：她的美貌与因一段无望之爱而生的哀伤，被认为已与这片湖泊的景致融为一体。尽管这个传说作为当地文化遗产代代相传，但它更偏向民间叙事，是在“装点”而非“记载”此地的历史。"
+      },
+      {
+        "id": "significance",
+        "title": "智利南部的度假目的地",
+        "content": "如今，Playa Grande 是阿劳卡尼亚大区最受游览的海滩度假区之一。它与普孔、比亚里卡及南部诸湖共同构成阿劳卡尼亚湖泊旅游路线，是在一天之内尽享自然、水上运动与马普切文化的核心站点。"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "照片画廊",
+    "subtitle": "透过影像，游览火山黑沙、卡拉夫根湖、半岛观景台与小镇生活。",
+    "photoAlt": "Playa Grande Lican-Ray 与卡拉夫根湖",
+    "photoAlts": [
+      "Playa Grande 面向卡拉夫根湖的火山黑沙滩",
+      "深色沙岸与平静湖水的湖畔",
+      "隔开 Playa Grande 与 Playa Chica 的原生森林半岛",
+      "从半岛远眺湖泊与山脉的天然观景台",
+      "卡拉夫根湖清澈水面上漂浮的皮划艇与桨板",
+      "夕阳洒在黑色沙滩上的湖面倒影",
+      "小镇湖滨的马普切手工艺集市",
+      "海滩深色火山沙的近景细节",
+      "游客在淡水湖中畅游",
+      "穿越半岛森林的标识步道",
+      "朝向安第斯山脉的卡拉夫根湖景",
+      "Licán Ray 湖岸的餐厅与度假木屋",
+      "湖畔的休闲垂钓与宁静时光",
+      "孩童在平缓水域的沙滩上嬉戏",
+      "半岛观景台上的瓦尔迪维亚原生森林",
+      "可直达海滩的铺装湖滨步道",
+      "火山与湖泊之上的日落",
+      "晴朗天空下湖水的粼粼波光",
+      "度假区海湾中的小型船只",
+      "当地集市上的马普切手工艺品与美食",
+      "夕阳下沿湖岸散步的情侣",
+      "从观景台俯瞰的湖中岛屿与港湾",
+      "湖畔的家庭露营与休闲时光",
+      "环绕 Playa Grande 的安第斯湖光山色"
+    ],
+    "viewAll": "在 Google 地图上查看位置",
+    "showMore": "显示更多照片",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "reviews": {
+    "title": "游客评价",
+    "declaration": "游客反馈可在 Google 地图（外部链接）上查看。",
+    "featuredTitle": "精选访客印象",
+    "featuredSubtitle": "两条简短的游客感言，将历史阅读与真实的湖畔体验自然衔接。",
+    "moreReviews": "在 Google 地图上查看",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "featured": [
+      {
+        "text": "一片巨大的黑沙滩，湖水格外平静。非常适合全家出游，可以玩上一整天。",
+        "source": "卡米拉，2026 年 2 月"
+      },
+      {
+        "text": "卡拉夫根湖上的日落令人震撼，带步道的半岛是最佳观景点。",
+        "source": "迪亚哥，2026 年 1 月"
+      }
+    ],
+    "items": [
+      {
+        "name": "卡米拉",
+        "date": "2026 年 2 月",
+        "rating": 5,
+        "text": "一片巨大的黑沙滩，湖水格外平静。水质很好，空间也足够大。非常适合全家出游。"
+      },
+      {
+        "name": "迪亚哥",
+        "date": "2026 年 1 月",
+        "rating": 5,
+        "text": "卡拉夫根湖上的日落令人震撼，带步道的半岛是最佳拍照观景点。强烈推荐。"
+      },
+      {
+        "name": "弗朗西斯卡",
+        "date": "2026 年 1 月",
+        "rating": 4,
+        "text": "很可爱的度假区，安静，餐厅和木屋配套也不错。2 月会爆满，建议早点来。"
+      },
+      {
+        "name": "托马斯",
+        "date": "2025 年 12 月",
+        "rating": 5,
+        "text": "黑沙独一无二，湖面也适合皮划艇和桨板。马普切手工艺集市非常值得一逛。"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "如何到达",
+    "subtitle": "智利阿劳卡尼亚大区比亚里卡市镇 Licán Ray（卡拉夫根湖北岸）",
+    "openMaps": "在 Google 地图上打开",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8"
+  },
+  "footer": {
+    "siteName": "Playa Grande Lican-Ray",
+    "rights": "© 2026 Playa Grande Lican-Ray — 独立非营利旅游信息项目。保留所有权利。",
+    "legalLinksTitle": "隐私与条款",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 设置",
+    "officialResourcesTitle": "官方与参考资源",
+    "mapsLabel": "Google 地图 →",
+    "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
+    "officialLinksList": [
+      { "name": "智利国家旅游局 — Lican Ray", "url": "https://chile.travel/en/attractions/lican-ray/" },
+      { "name": "智利国家旅游服务局 — 阿劳卡尼亚大区 (SERNATUR)", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "比亚里卡市政厅 (Visit Villarrica)", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "智利官方旅游门户 Chile es Tuyo", "url": "https://chileestuyo.cl/eventos/conoce-gratis-los-atractivos-turisticos-de-villarrica/" },
+      { "name": "阿劳卡尼亚大区政府 (Agorechi)", "url": "https://agorechi.cl/index.php/regiones/gobierno-regional-de-la-araucania/" }
+    ],
+    "disclaimer": "本网站是一个独立的非营利游客信息项目。我们与任何政府机构或官方组织均无隶属关系。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2026 年 3 月",
+    "sections": [
+      {
+        "heading": "1. 信息收集",
+        "content": "我们通常不会主动收集用户的个人身份信息。您通过联系表单或电子邮件提供的任何信息都将严格保密。"
+      },
+      {
+        "heading": "2. 信息使用",
+        "content": "我们收集的信息仅用于提供、维护和改进我们的服务，并与您沟通。我们不会出于营销目的将您的个人信息出售或分享给第三方。"
+      },
+      {
+        "heading": "3. Cookie 与追踪",
+        "content": "我们使用 Cookie 及类似的追踪技术来记录网站上的活动并保存某些信息。您可以指示浏览器拒绝所有 Cookie，或在发送 Cookie 时发出提醒。"
+      },
+      {
+        "heading": "4. 数据安全",
+        "content": "您的数据安全对我们很重要。我们采用商业上可接受的措施来保护您的个人数据，尽管任何通过互联网传输的方式都无法做到 100% 安全。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新：2026 年 3 月",
+    "sections": [
+      {
+        "heading": "1. 条款接受",
+        "content": "通过访问和使用本网站，即表示您同意受这些服务条款约束。若您不同意其中任何部分，则不得使用本服务。"
+      },
+      {
+        "heading": "2. 服务使用",
+        "content": "本网站是一个独立的非营利游客信息项目。所提供的信息仅用于一般信息目的。您同意以负责任且合法的方式使用本网站。"
+      },
+      {
+        "heading": "3. 知识产权",
+        "content": "本网站上的所有内容，包括文本、图像和徽标，除非另有说明，均为网站所有者财产。严禁未经授权的使用、复制或分发。"
+      },
+      {
+        "heading": "4. 责任限制",
+        "content": "对于因使用或无法使用本网站或其中包含的信息而导致的任何直接、间接、附带或后果性损害，我们不承担任何责任。"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie 设置",
+    "description": "管理您的 Cookie 偏好。",
+    "essential": {
+      "title": "严格必要的 Cookie",
+      "description": "网站基本功能所需。",
+      "badge": "始终活跃"
+    },
+    "analytics": {
+      "title": "分析 Cookie",
+      "description": "帮助我们了解访客如何与网站互动。"
+    },
+    "marketing": {
+      "title": "营销 Cookie",
+      "description": "用于跨网站追踪访客。"
+    },
+    "save": "保存偏好",
+    "saved": "偏好已保存！"
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "关于 Playa Grande Lican-Ray 的服务设施、历史背景与游览规划的实用信息。",
+    "amenities": {
+      "title": "周边服务设施",
+      "items": [
+        { "icon": "🅿️", "label": "停车", "value": "镇内与海滩周边均可停车" },
+        { "icon": "🚻", "label": "洗手间", "value": "镇内、海滩及周边服务处" },
+        { "icon": "🔌", "label": "加油/充电", "value": "比亚里卡与普孔加油站及充电站" },
+        { "icon": "♿", "label": "无障碍", "value": "可平坦抵达湖畔；局部为沙地" }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "交通与基础设施",
+        "items": [
+          {
+            "q": "景区有停车场吗？收费标准如何？",
+            "a": "有。Licán Ray 镇内设有停车区与海滩周边的临时停靠点，通常免费或收费很低。每年 1–2 月很快停满，建议上午到达。"
+          },
+          {
+            "q": "区域允许轮椅或婴儿车进入吗？",
+            "a": "通往湖畔的路段大多平坦，镇内也设有无障碍通道，但沙滩本身会阻碍轮椅与婴儿车通行。建议前往铺装的湖滨步道区域。"
+          },
+          {
+            "q": "景区内有洗手间或餐饮补给吗？",
+            "a": "镇内有公共洗手间、海滨浴场与餐饮店；湖滨步道旁有餐厅、咖啡馆以及海鲜与马普切美食小摊，距海滩仅几分钟。"
+          }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "历史奇观与科普",
+        "items": [
+          {
+            "q": "为什么沙子是黑色的？",
+            "a": "因为它源自火山：来自比亚里卡火山的活动以及当地的玄武岩，被堆积在卡拉夫根湖的湖岸之上。"
+          },
+          {
+            "q": "湖上和半岛可以玩什么？",
+            "a": "湖中可游泳，并开展皮划艇、桨板、帆板、滑水与休闲垂钓。隔开 Playa Grande 与 Playa Chica 的半岛设有步道与观景台，可俯瞰岛屿、湖面与山脉。"
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "游览规划与票务",
+        "items": [
+          {
+            "q": "参观需要门票吗？",
+            "a": "不需要。Playa Grande 是公共免费开放的海滩度假区，24 小时开放，无入园管控，也不收费。"
+          },
+          {
+            "q": "游览这里大概需要多长时间？",
+            "a": "常规游览约需半天：湖中戏水、沿湖滨散步、登上半岛观景台，再逛一逛手工艺集市。若顺道前往比亚里卡或普孔，则很容易填满一整天。"
+          },
+          {
+            "q": "遇到恶劣天气还能去吗？",
+            "a": "海滩为户外空间，任何天气都可前往；但遇雨天或大风时湖面会起浪、气温下降。冬季人流较少，旺季为 1–2 月。"
+          }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "周边区域联动",
+        "items": [
+          {
+            "q": "参观完后，周边还有哪些值得推荐的景点？",
+            "a": "紧邻的是 Playa Chica、Licán Ray 小镇与卡拉夫根湖。不远处还有比亚里卡（火山与湖滩）、普孔、科尼亚里佩（Coñaripe）温泉，以及维尔盖休埃（Huerquehue）国家公园。"
+          }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "探索阿劳卡尼亚大区更多精彩",
+    "attractionsTitle": "附近景点",
+    "toursTitle": "推荐游览与活动",
+    "attractions": [
+      { "name": "比亚里卡火山及其国家公园", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "普孔与比亚里卡湖", "url": "https://chile.travel/en/attractions/lican-ray/" },
+      { "name": "Licán Ray 的 Playa Chica", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "科尼亚里佩温泉", "url": "https://chileestuyo.cl/eventos/conoce-gratis-los-atractivos-turisticos-de-villarrica/" },
+      { "name": "维尔盖休埃国家公园", "url": "https://www.sernatur.cl/region/la-araucania/" }
+    ],
+    "tours": [
+      { "name": "卡拉夫根湖皮划艇与桨板", "url": "https://www.visitvillarrica.cl/" },
+      { "name": "比亚里卡火山攀登", "url": "https://www.sernatur.cl/region/la-araucania/" },
+      { "name": "马普切文化体验", "url": "https://chile.travel/en/attractions/lican-ray/" }
+    ]
+  },
+  "practicalGuide": {
+    "eyebrow": "实用访问指南",
+    "title": "实用访问指南 (Practical Visitor Guide)",
+    "subtitle": "帮助你规划行程的实用信息，不涉及任何商业推荐：按区域给出住宿建议、带精确坐标的拍摄机位，以及海滩上的注意事项。",
+    "stay": {
+      "title": "住宿区域建议",
+      "items": [
+        "卡拉夫根湖畔：临水而建的度假木屋与营地，最适合水上运动，推窗即可看湖上日落。",
+        "Licán Ray 镇中心：餐厅、马普切手工艺集市与小城镇生活更密集，步行几分钟即达海滩。",
+        "智利南部特色住宿：适合家庭的小木屋（Cabañas）与林间营地（Campings）；我们不推荐具体品牌。",
+        "旺季预警：每年 1–2 月为智利夏季高峰，建议提前数月预订，价格上扬且房源紧张。"
+      ]
+    },
+    "photo": {
+      "title": "最佳拍摄坐标",
+      "intro": "以下为可导航直达观景点的近似坐标：",
+      "spots": [
+        { "name": "利坎赖半岛观景台", "coords": "39.4137° S, 72.0806° W" },
+        { "name": "Playa Grande 湖滨步道", "coords": "39.4105° S, 72.0831° W" },
+        { "name": "黑沙与碧蓝湖水交界处", "coords": "39.4112° S, 72.0824° W" }
+      ],
+      "note": "最佳光线：清晨与黄昏黄金时刻；湖面在日出时最平静，最适宜拍摄倒影。"
+    },
+    "tips": {
+      "title": "注意事项",
+      "items": [
+        "火山黑沙在智利夏季强烈日照下吸热极快，请穿戴沙滩鞋，避免烫伤脚底。",
+        "最安全的戏水区在湖滨步道附近；桨板与皮划艇宜在清晨风平浪静时进行。",
+        "镇内与海滨浴场设有公共洗手间与淋浴；可平坦抵达湖畔，但沙地将阻碍轮椅通行。",
+        "请携带防晒用品、帽子与饮水：湖畔夏季紫外线极强。"
+      ]
+    }
+  }
+}

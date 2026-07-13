@@ -1,0 +1,61 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const g = messages.practicalGuide;
+---
+
+<section id="practical" class="section-padding" style="background: var(--bg-tertiary);">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="text-center mb-10">
+      <p class="text-xs uppercase tracking-[0.2em] mb-3" style="color: var(--accent);">{g.eyebrow}</p>
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold" style="color: var(--text-primary);">{g.title}</h2>
+      <p class="mt-3 text-base sm:text-lg max-w-3xl mx-auto" style="color: var(--text-secondary);">{g.subtitle}</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- 住宿区域建议 -->
+      <div class="rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="text-2xl">🏕️</span>
+          <h3 class="font-display text-xl font-semibold" style="color: var(--text-primary);">{g.stay.title}</h3>
+        </div>
+        <ul class="space-y-3 text-sm leading-relaxed" style="color: var(--text-secondary);">
+          {g.stay.items.map((item) => (
+            <li class="flex gap-2"><span style="color: var(--accent);">•</span><span>{item}</span></li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- 最佳拍摄坐标 -->
+      <div class="rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="text-2xl">📍</span>
+          <h3 class="font-display text-xl font-semibold" style="color: var(--text-primary);">{g.photo.title}</h3>
+        </div>
+        <p class="text-sm mb-3" style="color: var(--text-secondary);">{g.photo.intro}</p>
+        <ul class="space-y-2 text-sm">
+          {g.photo.spots.map((spot) => (
+            <li class="rounded-lg px-3 py-2 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+              <span class="font-medium" style="color: var(--text-primary);">{spot.name}</span>
+              <span class="block font-mono text-xs" style="color: var(--text-muted);">{spot.coords}</span>
+            </li>
+          ))}
+        </ul>
+        <p class="text-xs mt-3" style="color: var(--text-muted);">{g.photo.note}</p>
+      </div>
+
+      <!-- 注意事项 -->
+      <div class="rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="text-2xl">⚠️</span>
+          <h3 class="font-display text-xl font-semibold" style="color: var(--text-primary);">{g.tips.title}</h3>
+        </div>
+        <ul class="space-y-3 text-sm leading-relaxed" style="color: var(--text-secondary);">
+          {g.tips.items.map((item) => (
+            <li class="flex gap-2"><span style="color: var(--accent);">•</span><span>{item}</span></li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
