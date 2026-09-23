@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Playa Grande Lican-Ray Guide: Chile's black volcanic beach and Mapuche culture",
-    "description": "A professional Playa Grande Lican-Ray guide covering overview, transport, Essential Guide, cultural history, visual gallery and FAQs for planning a more efficient visit to Chile's La Araucanía Region."
+    "title": "Playa Grande Licán Ray: Guide, Lake Calafquén & Things to Do",
+    "description": "Black volcanic-sand beach in Licán Ray, Villarrica, on Lake Calafquén, Chile. Floating bridge, water sports, how to get there and visit tips."
   },
   "header": {
     "siteName": "Playa Grande Lican-Ray",
@@ -23,8 +23,8 @@
   "hero": {
     "title": "Playa Grande Lican-Ray",
     "subtitle": "A black volcanic-sand beach on the north shore of Lake Calafquén, between native forest, water sports and Mapuche culture in Chile's La Araucanía Region.",
-    "rating": "4.6(19,180)",
-    "reviewCount": "19,180 reviews",
+    "rating": "4.6(19,192)",
+    "reviewCount": "19,192 reviews",
     "hours": "Open 24 hours",
     "openMaps": "Get Directions",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
@@ -404,6 +404,24 @@
           {
             "q": "After visiting, what else do you recommend nearby?",
             "a": "Very close by are Playa Chica, the village of Licán Ray and Lake Calafquén. A short distance away are Villarrica (with its volcano and beach), Pucón, the Coñaripe hot springs and Huerquehue National Park."
+          }
+        ]
+      },
+      {
+        "id": "activities",
+        "title": "Things to Do & Legends",
+        "items": [
+          {
+            "q": "What is there to do in Licán Ray and Playa Grande?",
+            "a": "Swim and enjoy water sports on Lake Calafquén (kayak, paddle, windsurf, water skiing and fishing), walk the peninsula viewpoint with its marked trail, explore the Mapuche craft market and waterfront, and watch the sunset over the lake. In summer the village hosts fairs and events."
+          },
+          {
+            "q": "What is the Licán Ray floating bridge?",
+            "a": "It is a walkway over the lake that lets you stroll above the water and take in views of the peninsula, the islands and the Andes. It is one of the most photographed spots of the resort and a favourite place for the sunset."
+          },
+          {
+            "q": "How do I get to Licán Ray from Villarrica or Pucón?",
+            "a": "From Villarrica it is about 40 minutes by paved road along the lake; from Pucón roughly 1 h 15 min via the Lake Calafquén waterfront. By bus, take a Temuco–Licán Ray service with a connection through Villarrica."
           }
         ]
       }

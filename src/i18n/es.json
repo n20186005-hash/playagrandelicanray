@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Guía de Playa Grande Lican-Ray: arena volcánica negra y cultura mapuche en Chile",
-    "description": "Guía profesional de Playa Grande Lican-Ray con resumen del sitio, transporte, Essential Guide, historia cultural, galería visual y preguntas frecuentes para planificar mejor tu visita a La Araucanía."
+    "title": "Playa Grande Licán Ray: guía, Lago Calafquén y qué hacer",
+    "description": "Playa de arena volcánica negra en Licán Ray (Villarrica) sobre el Lago Calafquén, Chile. Puente flotante, deportes acuáticos, cómo llegar y consejos para tu visita."
   },
   "header": {
     "siteName": "Playa Grande Lican-Ray",
@@ -23,8 +23,8 @@
   "hero": {
     "title": "Playa Grande Lican-Ray",
     "subtitle": "Una playa de arena volcánica negra sobre la orilla norte del lago Calafquén, entre bosque nativo, deportes acuáticos y cultura mapuche en la Región de La Araucanía.",
-    "rating": "4.6(19.180)",
-    "reviewCount": "19.180 opiniones",
+    "rating": "4.6(19.192)",
+    "reviewCount": "19.192 opiniones",
     "hours": "Abierto las 24 horas",
     "openMaps": "Cómo llegar",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
@@ -404,6 +404,24 @@
           {
             "q": "Terminando la visita, ¿qué otros lugares recomiendan cerca?",
             "a": "Muy cerca están Playa Chica, el pueblo de Licán Ray y el lago Calafquén. A poca distancia se encuentran Villarrica (con su volcán y playa), Pucón, las termas de Coñaripe y el Parque Nacional Huerquehue."
+          }
+        ]
+      },
+      {
+        "id": "actividades",
+        "title": "Qué hacer y leyendas",
+        "items": [
+          {
+            "q": "¿Qué hacer en Licán Ray y Playa Grande?",
+            "a": "Nadar y practicar deportes náuticos en el Lago Calafquén (kayak, paddle, windsurf, esquí acuático y pesca), caminar la península-mirador con su sendero señalizado, recorrer la feria artesanal mapuche y la costanera, y disfrutar del atardecer sobre el lago. En verano el pueblo organiza ferias y actividades."
+          },
+          {
+            "q": "¿Qué es el puente flotante de Licán Ray?",
+            "a": "Es una pasarela sobre el lago que permite caminar sobre el agua y contemplar la península, las islas y la cordillera de los Andes. Es uno de los rincones más fotografiados del balneario y un punto favorito para ver el atardecer."
+          },
+          {
+            "q": "¿Cómo llegar a Licán Ray desde Villarrica o Pucón?",
+            "a": "Desde Villarrica son unos 40 minutos por ruta pavimentada bordeando el lago; desde Pucón se llega en aproximadamente 1 h 15 min por la costanera del Lago Calafquén. En bus, toma un servicio Temuco–Licán Ray con combinación vía Villarrica."
           }
         ]
       }

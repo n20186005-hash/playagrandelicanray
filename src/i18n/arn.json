@@ -23,8 +23,8 @@
   "hero": {
     "title": "Playa Grande Lican-Ray",
     "subtitle": "Kura antü chillka, Calafquén lago wenu, pewma, ko tripay, mapuche newen, Araucanía, Chile.",
-    "rating": "4.6 (19.180)",
-    "reviewCount": "Chewü nütram 19.180",
+    "rating": "4.6 (19.192)",
+    "reviewCount": "Chewü nütram 19.192",
     "hours": "Kom antü, 24 hora",
     "openMaps": "Get Directions",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
@@ -404,6 +404,24 @@
           {
             "q": "Küpa rire, ¿iney tenda oĩva?",
             "a": "Playa Chica, Licán Ray, Calafquén lago. Villarrica, Pucón, Coñaripe termas, Huerquehue."
+          }
+        ]
+      },
+      {
+        "id": "activities",
+        "title": "Qué hacer ka newen",
+        "items": [
+          {
+            "q": "¿Iney küpa Licán Ray ka Playa Grande?",
+            "a": "Ko Calafquén (kayak, paddle, windsurf, pesca), península pewma rüpü, feria mapuche, küyen lago. Enero–Febrero ruka chewü."
+          },
+          {
+            "q": "¿Iney puente flotante Licán Ray?",
+            "a": "Rüpü ko wenu; península, isla, Andes pewma. Ta'anga küme, küyen rume."
+          },
+          {
+            "q": "¿Chumküpa Villarrica ka Pucón?",
+            "a": "Villarrica rupa 40 min; Pucón 1 ora 15 min Calafquén rüpü. Bus Temuco–Licán Ray Villarrica rupi."
           }
         ]
       }

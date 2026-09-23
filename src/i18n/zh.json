@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Playa Grande Lican-Ray 旅游指南：智利火山黑沙滩与马普切文化",
-    "description": "Playa Grande Lican-Ray 专业旅游指南：概览卡拉夫根湖畔火山黑沙滩、交通方式、行前必读、历史文化、影像与常见问题，帮助你高效规划智利阿劳卡尼亚之行。"
+    "title": "Playa Grande Licán Ray 旅游指南：利坎赖黑沙滩、卡拉夫根湖与玩法",
+    "description": "智利比亚里卡利坎赖（Licán Ray）卡拉夫根湖畔的火山黑沙滩，含浮桥、水上运动、交通方式与游览建议。"
   },
   "header": {
     "siteName": "Playa Grande Lican-Ray",
@@ -23,8 +23,8 @@
   "hero": {
     "title": "Playa Grande Lican-Ray",
     "subtitle": "位于卡拉夫根湖北岸的火山黑沙滩，原生森林、水上运动与马普切文化交织于智利阿劳卡尼亚大区。",
-    "rating": "4.6(19,180)",
-    "reviewCount": "19,180 条评价",
+    "rating": "4.6(19,192)",
+    "reviewCount": "19,192 条评价",
     "hours": "24 小时开放",
     "openMaps": "获取路线 (Get Directions)",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
@@ -404,6 +404,24 @@
           {
             "q": "参观完后，周边还有哪些值得推荐的景点？",
             "a": "紧邻的是 Playa Chica、Licán Ray 小镇与卡拉夫根湖。不远处还有比亚里卡（火山与湖滩）、普孔、科尼亚里佩（Coñaripe）温泉，以及维尔盖休埃（Huerquehue）国家公园。"
+          }
+        ]
+      },
+      {
+        "id": "activities",
+        "title": "玩法与传说",
+        "items": [
+          {
+            "q": "Licán Ray 与 Playa Grande 有什么可玩？",
+            "a": "可在卡拉夫根湖游泳并体验水上运动（皮划艇、桨板、帆板、滑水与休闲垂钓），漫步设有步道的半岛观景台，逛马普切手工艺集市与湖滨步道，并欣赏湖上日落。夏季镇上还会举办活动与集市。"
+          },
+          {
+            "q": "利坎赖的浮桥是什么？",
+            "a": "它是一条架在湖面上的步道，让你能行走于水面上方，俯瞰半岛、岛屿与安第斯山脉。这是当地最上镜的取景地之一，也是欣赏日落的热门点位。"
+          },
+          {
+            "q": "从比亚里卡或普孔怎么前往 Licán Ray？",
+            "a": "从比亚里卡沿湖畔铺装公路约 40 分钟可到；从普孔经卡拉夫根湖湖滨约 1 小时 15 分钟。乘巴士可在比亚里卡中转，搭乘特木科—利坎赖线路。"
           }
         ]
       }

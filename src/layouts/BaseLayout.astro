@@ -4,14 +4,16 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { getLangFromUrl, buildAlternates, htmlLangAttr, getI18n } from '../i18n/ui';
 import { ogLocale } from '../config';
+import siteConfig from '../config/site';
 
 interface Props {
   title: string;
   description: string;
   path?: string;
+  noindex?: boolean;
 }
 
-const { title, description, path = '' } = Astro.props;
+const { title, description, path = '', noindex = false } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const htmlLang = htmlLangAttr(lang);
 const alts = buildAlternates(path);
@@ -37,26 +39,44 @@ const faqEntities = (messages.faq?.categories ?? []).flatMap((category: FaqCateg
   })),
 );
 
+const GMAPS_URL = 'https://maps.app.goo.gl/e9zGKMD1ovufKeSS8';
+const ogImage = `${siteConfig.baseUrl}/gallery/playa-grande-lican-ray-01.jpg`;
+
 const touristAttractionJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'TouristAttraction',
   'name': messages.header.siteName,
   'description': messages.meta.description,
   'url': canonical,
-  'image': `${canonical}/gallery/playa-grande-lican-ray-01.jpg`,
+  'image': ogImage,
+  'isAccessibleForFree': true,
   'address': {
     '@type': 'PostalAddress',
     'addressLocality': 'Licán Ray',
     'addressRegion': 'La Araucanía',
     'addressCountry': 'CL',
   },
+  'geo': {
+    '@type': 'GeoCoordinates',
+    'latitude': -39.4105,
+    'longitude': -72.0831,
+  },
+  'openingHoursSpecification': [
+    {
+      '@type': 'OpeningHoursSpecification',
+      'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      'opens': '00:00',
+      'closes': '23:59',
+    },
+  ],
   'aggregateRating': {
     '@type': 'AggregateRating',
     'ratingValue': '4.6',
-    'reviewCount': '19180',
+    'reviewCount': '19192',
   },
+  'hasMap': GMAPS_URL,
   'sameAs': [
-    'https://maps.app.goo.gl/e9zGKMD1ovufKeSS8',
+    GMAPS_URL,
     'https://chile.travel/en/attractions/lican-ray/',
   ],
 };
@@ -76,6 +96,7 @@ const faqJsonLd = {
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <link rel="alternate" hreflang="es" href={alts.es} />
     <link rel="alternate" hreflang="en" href={alts.en} />
     <link rel="alternate" hreflang="zh" href={alts.zh} />
@@ -86,6 +107,8 @@ const faqJsonLd = {
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:image" content={ogImage} />
     <meta property="og:locale" content={ogLocale[lang] ?? lang} />
     <meta name="twitter:card" content="summary_large_image" />
 
