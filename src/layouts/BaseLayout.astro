@@ -6,38 +6,63 @@ import { getLangFromUrl, buildAlternates, htmlLangAttr, getI18n } from '../i18n/
 import { ogLocale } from '../config';
 import siteConfig from '../config/site';
 
-interface Props {
-  title: string;
-  description: string;
-  path?: string;
-  noindex?: boolean;
-}
-
-const { title, description, path = '', noindex = false } = Astro.props;
-const lang = getLangFromUrl(Astro.url);
-const htmlLang = htmlLangAttr(lang);
-const alts = buildAlternates(path);
-const canonical = alts[lang] ?? alts.es;
-const { messages } = getI18n(Astro.url);
 type FaqItem = {
   q: string;
   a: string;
 };
 
+interface Props {
+  title: string;
+  description: string;
+  path?: string;
+  noindex?: boolean;
+  esOnly?: boolean;
+  faqItems?: FaqItem[];
+}
+
+const { title, description, path = '', noindex = false, esOnly = false, faqItems } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const htmlLang = htmlLangAttr(lang);
+const alts = esOnly
+  ? { es: `https://playagrandelicanray.com/es${path ? '/' + path : ''}`, xDefault: `https://playagrandelicanray.com/es${path ? '/' + path : ''}` }
+  : buildAlternates(path);
+const canonical = alts[lang] ?? alts.es;
+const { messages } = getI18n(Astro.url);
+
 type FaqCategory = {
   items?: FaqItem[];
 };
 
-const faqEntities = (messages.faq?.categories ?? []).flatMap((category: FaqCategory) =>
-  (category.items ?? []).map((item: FaqItem) => ({
-    '@type': 'Question',
-    'name': item.q,
-    'acceptedAnswer': {
-      '@type': 'Answer',
-      'text': item.a,
-    },
-  })),
-);
+const faqEntities = (faqItems && faqItems.length > 0)
+  ? faqItems.map((item: FaqItem) => ({
+      '@type': 'Question',
+      'name': item.q,
+      'acceptedAnswer': {
+        '@type': 'Answer',
+        'text': item.a,
+      },
+    }))
+  : (messages.faq?.categories ?? []).flatMap((category: FaqCategory) =>
+      (category.items ?? []).map((item: FaqItem) => ({
+        '@type': 'Question',
+        'name': item.q,
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': item.a,
+        },
+      })),
+    );
+
+const breadcrumbJsonLd = esOnly
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      'itemListElement': [
+        { '@type': 'ListItem', 'position': 1, 'name': 'Inicio', 'item': 'https://playagrandelicanray.com/es' },
+        { '@type': 'ListItem', 'position': 2, 'name': title, 'item': canonical },
+      ],
+    }
+  : null;
 
 const GMAPS_URL = 'https://maps.app.goo.gl/e9zGKMD1ovufKeSS8';
 const ogImage = `${siteConfig.baseUrl}/gallery/playa-grande-lican-ray-01.jpg`;
@@ -72,7 +97,7 @@ const touristAttractionJsonLd = {
   'aggregateRating': {
     '@type': 'AggregateRating',
     'ratingValue': '4.6',
-    'reviewCount': '19192',
+    'reviewCount': '19187',
   },
   'hasMap': GMAPS_URL,
   'sameAs': [
@@ -97,11 +122,9 @@ const faqJsonLd = {
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex, follow" />}
-    <link rel="alternate" hreflang="es" href={alts.es} />
-    <link rel="alternate" hreflang="en" href={alts.en} />
-    <link rel="alternate" hreflang="zh" href={alts.zh} />
-    <link rel="alternate" hreflang="arn" href={alts.arn} />
-    <link rel="alternate" hreflang="x-default" href={alts.xDefault} />
+    {Object.entries(alts).map(([code, url]) => (
+      <link rel="alternate" hreflang={code === 'xDefault' ? 'x-default' : code} href={url} />
+    ))}
 
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -131,6 +154,9 @@ const faqJsonLd = {
     <script is:inline type="application/ld+json" set:html={JSON.stringify(touristAttractionJsonLd)}></script>
     {faqEntities.length > 0 && (
       <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)}></script>
+    )}
+    {breadcrumbJsonLd && (
+      <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)}></script>
     )}
   </head>
   <body class="min-h-screen">

@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SubGuide from '../../components/SubGuide.astro';
+import { guides } from '../../data/es-guides';
+
+export function getStaticPaths() {
+  return Object.values(guides).map((g) => ({
+    params: { slug: g.slug },
+    props: { guide: g },
+  }));
+}
+
+const { guide } = Astro.props;
+---
+
+<BaseLayout
+  title={guide.metaTitle}
+  description={guide.metaDescription}
+  path={guide.slug}
+  esOnly
+  faqItems={guide.faqs}
+>
+  <SubGuide guide={guide} />
+</BaseLayout>

@@ -1,0 +1,28 @@
+---
+import { guides } from '../data/es-guides';
+const list = Object.values(guides);
+---
+
+<section class="section-padding" style="background: var(--bg-tertiary);">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-10">
+      <p class="text-xs uppercase tracking-[0.22em] mb-3" style="color: var(--accent);">Guías de Licán Ray</p>
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-4" style="color: var(--text-primary);">Planifica mejor tu visita</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">
+        Información práctica para llegar, conocer el puente flotante, comparar las playas y aprovechar el pueblo y el lago.
+      </p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-6">
+      {list.map((g) => (
+        <a
+          href={`/es/${g.slug}`}
+          class="block rounded-2xl p-6 border hover:opacity-90 transition"
+          style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);"
+        >
+          <h3 class="font-display text-xl font-semibold mb-2" style="color: var(--text-primary);">{g.h1}</h3>
+          <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{g.metaDescription}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

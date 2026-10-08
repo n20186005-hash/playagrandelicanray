@@ -23,8 +23,8 @@
   "hero": {
     "title": "Playa Grande Lican-Ray",
     "subtitle": "Kura antü chillka, Calafquén lago wenu, pewma, ko tripay, mapuche newen, Araucanía, Chile.",
-    "rating": "4.6 (19.192)",
-    "reviewCount": "Chewü nütram 19.192",
+    "rating": "4.6 (19.187)",
+    "reviewCount": "Chewü nütram 19.187",
     "hours": "Kom antü, 24 hora",
     "openMaps": "Get Directions",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
@@ -205,6 +205,7 @@
   "reviews": {
     "title": "Chewü nütram",
     "declaration": "Chewü nütram Google Maps (enlace externo).",
+    "ratingNote": "Rating Google Maps (4.6 / 19.187 chewü nütram), octubre 2026. Playa Grande entrada küme, 24 hora, ko seguro kom ára ül.",
     "featuredTitle": "Pichi nütram küme",
     "featuredSubtitle": "Epu chewü nütram: kuyfi ka lago mongen.",
     "moreReviews": "Google Maps echë",
@@ -445,8 +446,8 @@
     ]
   },
   "practicalGuide": {
-    "eyebrow": "Essential Guide",
-    "title": "Essential Guide",
+    "eyebrow": "Küpa reko",
+    "title": "Küpa reko",
     "subtitle": "Küpa marandu müle kiñe chedungun mew: küme antü, ruka tenda, ta'anga coords ka kura antü cuidado.",
     "stay": {
       "title": "Ruka tenda (zona)",

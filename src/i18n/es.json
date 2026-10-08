@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Playa Grande Licán Ray: guía, Lago Calafquén y qué hacer",
-    "description": "Playa de arena volcánica negra en Licán Ray (Villarrica) sobre el Lago Calafquén, Chile. Puente flotante, deportes acuáticos, cómo llegar y consejos para tu visita."
+    "title": "Playa Grande Licán Ray: Cómo Llegar, Fotos y Qué Hacer",
+    "description": "Descubre Playa Grande de Licán Ray, a orillas del Lago Calafquén. Cómo llegar, fotos, estacionamiento, actividades y consejos para tu visita."
   },
   "header": {
     "siteName": "Playa Grande Lican-Ray",
@@ -21,10 +21,10 @@
     "toggleTheme": "Cambiar tema"
   },
   "hero": {
-    "title": "Playa Grande Lican-Ray",
+    "title": "Playa Grande de Licán Ray",
     "subtitle": "Una playa de arena volcánica negra sobre la orilla norte del lago Calafquén, entre bosque nativo, deportes acuáticos y cultura mapuche en la Región de La Araucanía.",
-    "rating": "4.6(19.192)",
-    "reviewCount": "19.192 opiniones",
+    "rating": "4.6(19.187)",
+    "reviewCount": "19.187 opiniones",
     "hours": "Abierto las 24 horas",
     "openMaps": "Cómo llegar",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
@@ -205,6 +205,7 @@
   "reviews": {
     "title": "Opiniones de los visitantes",
     "declaration": "Las opiniones de los visitantes están disponibles en Google Maps (enlace externo).",
+    "ratingNote": "Calificación según Google Maps (4.6 / 19.187 reseñas), consultada en octubre de 2026. Playa Grande es de acceso público y libre las 24 horas, pero eso no implica que sea seguro bañarse en cualquier momento: el oleaje y la temperatura del Lago Calafquén varían con el clima.",
     "featuredTitle": "Impresiones destacadas",
     "featuredSubtitle": "Dos voces resumidas ayudan a enlazar la lectura histórica con la experiencia real del lago.",
     "moreReviews": "Ver en Google Maps",
@@ -445,8 +446,8 @@
     ]
   },
   "practicalGuide": {
-    "eyebrow": "Essential Guide",
-    "title": "Essential Guide",
+    "eyebrow": "Planifica tu visita",
+    "title": "Guía práctica para visitar Playa Grande",
     "subtitle": "Reúne el mejor momento, zonas para alojarte, puntos de foto y precauciones en una sola sección clara para preparar la visita sin ruido comercial.",
     "stay": {
       "title": "Dónde alojarse (por zona)",

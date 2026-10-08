@@ -1,0 +1,60 @@
+---
+import type { EsGuide } from '../data/es-guides';
+import { guides } from '../data/es-guides';
+
+interface Props {
+  guide: EsGuide;
+}
+
+const { guide } = Astro.props;
+const related = (guide.related ?? [])
+  .map((slug) => ({ slug, title: guides[slug]?.h1 ?? slug }))
+  .filter((r) => r.title !== r.slug);
+---
+
+<section class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-3xl mx-auto px-4">
+    <nav class="text-sm mb-6" style="color: var(--text-muted);">
+      <a href="/es" class="hover:opacity-70" style="color: var(--accent);">Inicio</a>
+      <span class="mx-2">/</span>
+      <span>{guide.h1}</span>
+    </nav>
+
+    <h1 class="font-display text-3xl sm:text-5xl font-bold mb-4" style="color: var(--text-primary);">{guide.h1}</h1>
+    <p class="text-lg leading-relaxed mb-10" style="color: var(--text-secondary);">{guide.intro}</p>
+
+    <div class="space-y-8">
+      {guide.sections.map((s) => (
+        <div>
+          <h2 class="font-display text-2xl font-semibold mb-3" style="color: var(--text-primary);">{s.heading}</h2>
+          <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{s.body}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-12 rounded-2xl p-6 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+      <h2 class="font-display text-2xl font-semibold mb-5" style="color: var(--text-primary);">Preguntas frecuentes</h2>
+      <div class="space-y-5">
+        {guide.faqs.map((f) => (
+          <div>
+            <h3 class="font-semibold mb-1" style="color: var(--text-primary);">{f.q}</h3>
+            <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    {related.length > 0 && (
+      <div class="mt-12">
+        <h2 class="font-display text-xl font-semibold mb-4" style="color: var(--text-primary);">Guías relacionadas</h2>
+        <ul class="space-y-2">
+          {related.map((r) => (
+            <li>
+              <a href={`/es/${r.slug}`} class="hover:opacity-70" style="color: var(--accent);">{r.title} →</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </div>
+</section>

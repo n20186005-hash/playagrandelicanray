@@ -5,12 +5,6 @@ const { lang, messages } = getI18n(Astro.url);
 const visitGuide = messages.intro.visitGuide;
 const guide = messages.practicalGuide;
 
-type LangLabel = {
-  sectionTitle: string;
-  sectionSubtitle: string;
-  timingTitle: string;
-};
-
 type PhotoSpot = {
   name: string;
   coords: string;
@@ -22,33 +16,17 @@ type GuideCard = {
   items: string[];
 };
 
-const labels: Record<string, LangLabel> = {
-  es: {
-    sectionTitle: 'Essential Guide',
-    sectionSubtitle: guide.subtitle,
-    timingTitle: 'Mejor momento',
-  },
-  en: {
-    sectionTitle: 'Essential Guide',
-    sectionSubtitle: guide.subtitle,
-    timingTitle: 'Best Time',
-  },
-  zh: {
-    sectionTitle: '行前必读 (Essential Guide)',
-    sectionSubtitle: guide.subtitle,
-    timingTitle: '最佳时段',
-  },
-  arn: {
-    sectionTitle: 'Essential Guide',
-    sectionSubtitle: guide.subtitle,
-    timingTitle: 'Küme antü',
-  },
+const timingTitles: Record<string, string> = {
+  es: 'Mejor momento',
+  en: 'Best Time',
+  zh: '最佳时段',
+  arn: 'Küme antü',
 };
 
-const copy = labels[lang] ?? labels.es;
+const timingTitle = timingTitles[lang] ?? timingTitles.es;
 const cards: GuideCard[] = [
   {
-    title: copy.timingTitle,
+    title: timingTitle,
     intro: visitGuide.description,
     items: visitGuide.items,
   },
@@ -74,8 +52,8 @@ const cards: GuideCard[] = [
   <div class="max-w-6xl mx-auto px-4">
     <div class="max-w-3xl mx-auto text-center mb-12">
       <p class="text-xs uppercase tracking-[0.22em] mb-3" style="color: var(--accent);">{guide.eyebrow}</p>
-      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-4" style="color: var(--text-primary);">{copy.sectionTitle}</h2>
-      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{copy.sectionSubtitle}</p>
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-4" style="color: var(--text-primary);">{guide.title}</h2>
+      <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{guide.subtitle}</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6">

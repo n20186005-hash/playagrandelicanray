@@ -23,8 +23,8 @@
   "hero": {
     "title": "Playa Grande Lican-Ray",
     "subtitle": "A black volcanic-sand beach on the north shore of Lake Calafquén, between native forest, water sports and Mapuche culture in Chile's La Araucanía Region.",
-    "rating": "4.6(19,192)",
-    "reviewCount": "19,192 reviews",
+    "rating": "4.6(19,187)",
+    "reviewCount": "19,187 reviews",
     "hours": "Open 24 hours",
     "openMaps": "Get Directions",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
@@ -205,6 +205,7 @@
   "reviews": {
     "title": "Visitor Reviews",
     "declaration": "Visitor feedback is available on Google Maps (external link).",
+    "ratingNote": "Rating per Google Maps (4.6 / 19,187 reviews), checked October 2026. The beach is public and free, open 24 hours, but that does not mean it is safe to swim at any hour: lake conditions change with the weather.",
     "featuredTitle": "Selected Impressions",
     "featuredSubtitle": "Two short visitor quotes bridge the historical read and the real lakeside experience.",
     "moreReviews": "View on Google Maps",

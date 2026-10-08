@@ -23,8 +23,8 @@
   "hero": {
     "title": "Playa Grande Lican-Ray",
     "subtitle": "位于卡拉夫根湖北岸的火山黑沙滩，原生森林、水上运动与马普切文化交织于智利阿劳卡尼亚大区。",
-    "rating": "4.6(19,192)",
-    "reviewCount": "19,192 条评价",
+    "rating": "4.6(19,187)",
+    "reviewCount": "19,187 条评价",
     "hours": "24 小时开放",
     "openMaps": "获取路线 (Get Directions)",
     "mapsUrl": "https://maps.app.goo.gl/e9zGKMD1ovufKeSS8",
@@ -205,6 +205,7 @@
   "reviews": {
     "title": "游客评价",
     "declaration": "游客反馈可在 Google 地图（外部链接）上查看。",
+    "ratingNote": "评分数据来自 Google 地图（4.6 / 19,187 条评价），于 2026 年 10 月核对。Playa Grande 为公共免费开放、24 小时可达，但这并不表示任何时段都适合游泳：卡拉夫根湖的水温与浪况会随天气变化。",
     "featuredTitle": "精选访客印象",
     "featuredSubtitle": "两条简短的游客感言，将历史阅读与真实的湖畔体验自然衔接。",
     "moreReviews": "在 Google 地图上查看",
@@ -446,7 +447,7 @@
   },
   "practicalGuide": {
     "eyebrow": "行前必读",
-    "title": "行前必读 (Essential Guide)",
+    "title": "行前必读：实用游览指南",
     "subtitle": "将最佳时段、住宿建议、拍摄机位和注意事项整合为一处，帮助你快速完成出行规划，而不引入任何商业性推荐。",
     "stay": {
       "title": "住宿区域建议",
